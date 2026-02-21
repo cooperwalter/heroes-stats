@@ -27,6 +27,7 @@ export const Route = createFileRoute("/heroes/$heroSlug")({
 	validateSearch: filterSearchSchema,
 	loaderDeps: ({ search }) => ({ mode: search.mode, tier: search.tier }),
 	component: HeroTalentPage,
+	pendingComponent: HeroTalentPendingComponent,
 	loader: async ({ params, deps }) => {
 		const { currentPatch } = await resolveLatestPatch();
 
@@ -213,11 +214,9 @@ function HeroTalentPage() {
 												LEVEL {level}
 											</span>
 										</div>
-										<div className="hero-talent-cards">
-											<SkeletonCard />
-											<SkeletonCard />
-											<SkeletonCard />
-										</div>
+										<p className="hero-talent-empty">
+											No talent data available for this tier.
+										</p>
 									</div>
 								);
 							}
@@ -284,6 +283,33 @@ function HeroTalentPage() {
 					)}
 				</>
 			)}
+		</main>
+	);
+}
+
+function HeroTalentPendingComponent() {
+	return (
+		<main className="container hero-talent-page">
+			<div className="hero-talent-header">
+				<div className="hero-talent-title">
+					<h1>&nbsp;</h1>
+				</div>
+			</div>
+			<div className="hero-talent-tiers">
+				{TALENT_LEVELS.map((level) => (
+					<div key={level} className="hero-talent-tier">
+						<div className="hero-talent-tier-header">
+							<span className="hero-talent-level-badge">{level}</span>
+							<span className="hero-talent-level-label">LEVEL {level}</span>
+						</div>
+						<div className="hero-talent-cards">
+							<SkeletonCard />
+							<SkeletonCard />
+							<SkeletonCard />
+						</div>
+					</div>
+				))}
+			</div>
 		</main>
 	);
 }

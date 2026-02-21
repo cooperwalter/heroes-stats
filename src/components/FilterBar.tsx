@@ -1,3 +1,4 @@
+import { GAME_MODES, MMR_TIERS } from "~/lib/filters";
 import "./FilterBar.css";
 
 interface FilterBarProps {
@@ -7,23 +8,8 @@ interface FilterBarProps {
 	onTierChange: (tier: string) => void;
 }
 
-const GAME_MODES = [
-	{ label: "Storm League", value: "sl" },
-	{ label: "Quick Match", value: "qm" },
-	{ label: "ARAM", value: "aram" },
-	{ label: "Unranked Draft", value: "ud" },
-];
-
-const MMR_TIERS = [
-	{ label: "All Ranks", value: "all" },
-	{ label: "Master", value: "6" },
-	{ label: "Diamond", value: "5" },
-	{ label: "Platinum", value: "4" },
-	{ label: "Gold", value: "3" },
-	{ label: "Silver", value: "2" },
-	{ label: "Bronze", value: "1" },
-	{ label: "Wood", value: "0" },
-];
+const gameModeEntries = Object.entries(GAME_MODES);
+const tierEntries = Object.entries(MMR_TIERS);
 
 export function FilterBar({
 	mode,
@@ -34,14 +20,14 @@ export function FilterBar({
 	return (
 		<div className="filter-bar">
 			<div className="filter-bar-modes">
-				{GAME_MODES.map((gm) => (
+				{gameModeEntries.map(([key, gm]) => (
 					<button
-						key={gm.value}
+						key={key}
 						type="button"
-						className={`filter-bar-mode-btn${mode === gm.value ? " filter-bar-mode-btn--active" : ""}`}
-						onClick={() => onModeChange(gm.value)}
+						className={`filter-bar-mode-btn${mode === key ? " filter-bar-mode-btn--active" : ""}`}
+						onClick={() => onModeChange(key)}
 					>
-						{gm.label}
+						{gm.display}
 					</button>
 				))}
 			</div>
@@ -50,9 +36,9 @@ export function FilterBar({
 				value={tier}
 				onChange={(e) => onTierChange(e.target.value)}
 			>
-				{MMR_TIERS.map((t) => (
-					<option key={t.value} value={t.value}>
-						{t.label}
+				{tierEntries.map(([key, t]) => (
+					<option key={key} value={key}>
+						{t.display}
 					</option>
 				))}
 			</select>

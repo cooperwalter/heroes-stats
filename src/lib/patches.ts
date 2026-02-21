@@ -17,6 +17,10 @@ export async function resolveLatestPatch(): Promise<{
 		throw new Error("No patch data returned");
 	}
 
+	if (Object.keys(data).length === 0) {
+		throw new Error("Patch data contains no versions");
+	}
+
 	const majorKeys = Object.keys(data).sort((a, b) => {
 		const [aMajor, aMinor] = a.split(".").map(Number);
 		const [bMajor, bMinor] = b.split(".").map(Number);

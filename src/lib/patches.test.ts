@@ -69,6 +69,17 @@ describe("resolveLatestPatch", () => {
 		expect(result.previousPatch).toBe("2.55.3.90702");
 	});
 
+	it("throws an error when the API returns an empty patch object with no versions", async () => {
+		const { getPatches } = await import("~/lib/api");
+		vi.mocked(getPatches).mockResolvedValue({
+			data: {},
+		});
+		const { resolveLatestPatch } = await import("./patches");
+		await expect(resolveLatestPatch()).rejects.toThrow(
+			"Patch data contains no versions",
+		);
+	});
+
 	it("throws an error when the API returns an error result", async () => {
 		const { getPatches } = await import("~/lib/api");
 		const errorResult: ApiResult<PatchesResponse> = {

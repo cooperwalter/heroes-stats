@@ -26,6 +26,7 @@ export const Route = createFileRoute("/")({
 	}),
 	loaderDeps: ({ search }) => ({ mode: search.mode, tier: search.tier }),
 	component: HeroStatsPage,
+	pendingComponent: PendingComponent,
 	loader: async ({ deps }) => {
 		const { mode, tier } = deps;
 		const { currentPatch, previousPatch } = await resolveLatestPatch();
@@ -163,8 +164,12 @@ function HeroStatsPage() {
 
 	const totalGames = heroRows.reduce((sum, r) => sum + r.stats.games_played, 0);
 	const heroesPlayed = heroRows.filter((r) => r.stats.games_played > 0).length;
+	const playedRows = heroRows.filter((r) => r.stats.games_played > 0);
 	const avgWinRate =
-		heroRows.reduce((sum, r) => sum + r.stats.win_rate, 0) / heroRows.length;
+		playedRows.length > 0
+			? playedRows.reduce((sum, r) => sum + r.stats.win_rate, 0) /
+				playedRows.length
+			: 0;
 	const mostBanned = heroRows.reduce((best, r) =>
 		r.stats.ban_rate > best.stats.ban_rate ? r : best,
 	);
