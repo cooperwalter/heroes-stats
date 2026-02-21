@@ -52,14 +52,12 @@ export function TalentCard({
 					</span>
 					<span className="talent-card-stat-label">Popularity</span>
 				</div>
-				{gamesPlayed !== undefined && (
-					<div className="talent-card-stat">
-						<span className="talent-card-stat-value">
-							{formatNumber(gamesPlayed)}
-						</span>
-						<span className="talent-card-stat-label">Games</span>
-					</div>
-				)}
+				<div className="talent-card-stat">
+					<span className="talent-card-stat-value">
+						{gamesPlayed !== undefined ? formatNumber(gamesPlayed) : "\u2014"}
+					</span>
+					<span className="talent-card-stat-label">Games</span>
+				</div>
 			</div>
 		</div>
 	);

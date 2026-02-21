@@ -345,6 +345,21 @@ function HeroTalentPendingComponent() {
 				<div className="hero-talent-title">
 					<h1>&nbsp;</h1>
 				</div>
+				<Link
+					to="/"
+					search={{ mode: "sl", tier: "all" }}
+					className="hero-talent-back"
+				>
+					Back to all heroes
+				</Link>
+			</div>
+			<div className="hero-talent-filters">
+				<FilterBar
+					mode="sl"
+					tier="all"
+					onModeChange={() => {}}
+					onTierChange={() => {}}
+				/>
 			</div>
 			<div className="hero-talent-tiers">
 				{TALENT_LEVELS.map((level) => (

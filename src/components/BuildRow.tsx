@@ -48,11 +48,11 @@ export function BuildRow({
 				<span className={`build-row-win-rate build-row-win-rate--${color}`}>
 					{formatPercent(winRate)}
 				</span>
-				{gamesPlayed !== undefined && (
-					<span className="build-row-games">
-						{formatNumber(gamesPlayed)} games
-					</span>
-				)}
+				<span className="build-row-games">
+					{gamesPlayed !== undefined
+						? `${formatNumber(gamesPlayed)} games`
+						: "\u2014"}
+				</span>
 			</div>
 		</div>
 	);

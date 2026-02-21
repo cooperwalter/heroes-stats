@@ -92,8 +92,8 @@ export const getHeroStats = createServerFn({ method: "GET" })
 	.handler(async ({ data }): Promise<ApiResult<HeroStatsResponse>> => {
 		const key = cache.buildCacheKey("getHeroStats", {
 			timeframe: data.timeframe,
-			game_type: data.gameType,
-			league_tier: data.leagueTier,
+			gameType: data.gameType,
+			leagueTier: data.leagueTier,
 		});
 		const cached = cache.get<ApiResult<HeroStatsResponse>>(key);
 		if (cached) return cached;
@@ -122,9 +122,9 @@ export const getTalentDetails = createServerFn({ method: "GET" })
 	.handler(async ({ data }): Promise<ApiResult<TalentDetailsResponse>> => {
 		const key = cache.buildCacheKey("getTalentDetails", {
 			timeframe: data.timeframe,
-			game_type: data.gameType,
+			gameType: data.gameType,
 			hero: data.hero,
-			league_tier: data.leagueTier,
+			leagueTier: data.leagueTier,
 		});
 		const cached = cache.get<ApiResult<TalentDetailsResponse>>(key);
 		if (cached) return cached;
@@ -157,9 +157,9 @@ export const getTalentBuilds = createServerFn({ method: "GET" })
 	.handler(async ({ data }): Promise<ApiResult<TalentBuildsResponse>> => {
 		const key = cache.buildCacheKey("getTalentBuilds", {
 			timeframe: data.timeframe,
-			game_type: data.gameType,
+			gameType: data.gameType,
 			hero: data.hero,
-			league_tier: data.leagueTier,
+			leagueTier: data.leagueTier,
 		});
 		const cached = cache.get<ApiResult<TalentBuildsResponse>>(key);
 		if (cached) return cached;

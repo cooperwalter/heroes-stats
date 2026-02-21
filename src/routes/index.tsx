@@ -360,7 +360,7 @@ function HeroStatsPage() {
 											</span>
 										) : change < 0 ? (
 											<span className="win-rate-change win-rate-change--negative">
-												−{formatPercent(Math.abs(change))}
+												-{formatPercent(Math.abs(change))}
 											</span>
 										) : (
 											<span className="win-rate-change win-rate-change--neutral">
@@ -393,6 +393,14 @@ export function PendingComponent() {
 		<main className="container hero-stats-page">
 			<div className="hero-stats-header">
 				<h1>Hero Stats</h1>
+			</div>
+			<div className="hero-stats-filters">
+				<FilterBar
+					mode="sl"
+					tier="all"
+					onModeChange={() => {}}
+					onTierChange={() => {}}
+				/>
 			</div>
 			<div className="heroes-table-wrapper">
 				<div className="skeleton-table-body">

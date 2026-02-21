@@ -21,7 +21,7 @@
 }
 
 .talent-card--best:hover {
-	border-color: var(--accent);
+	border-color: var(--green);
 }
 
 .talent-card-header {

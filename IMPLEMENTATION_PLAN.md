@@ -18,7 +18,7 @@ Heroes of the Storm stats dashboard using TanStack Start, Bun, and the HeroesPro
 
 1. **StatCard label casing** — spec says uppercase; applied uppercase.
 2. **Missing `yellow-bg` token** — added `--yellow-bg: #fffbeb` to `:root`.
-3. **`games_played` in talent builds** — typed as `games_played?: number`, omitted gracefully when absent.
+3. **`games_played` in talent builds** — typed as `games_played?: number`, shows "—" when absent.
 4. **Cross-major-patch boundary** — `previousPatch` is `null` when only one minor patch exists in latest major; heroes show "—" for change. Acceptable for v1.
 
 **Learnings during implementation:**
@@ -33,6 +33,8 @@ Heroes of the Storm stats dashboard using TanStack Start, Bun, and the HeroesPro
 - `pendingComponent` must be explicitly registered on the route config for TanStack Router to use it.
 - Testing `createServerFn` handlers: mock `@tanstack/react-start` to make `createServerFn` a pass-through, mock `./cache` for isolation, and mock `global.fetch`. The handler functions are then callable directly.
 - Loader error handling: `resolveLatestPatch()` throws on failure, so loaders must wrap it in try-catch and return error-shaped results instead of crashing. Same for `getHeroes()` errors in the talent page loader.
+- Cache key parameter names must use camelCase (matching function input param names), not snake_case — spec example: `getHeroStats:gameType=Storm League&timeframe=2.55.15.96477&timeframeType=minor`.
+- Eager API token validation belongs in `src/server.ts` (the server entry point), not in `env.ts`, so the app fails to start if the token is missing without breaking test isolation.
 
 ---
 
@@ -48,25 +50,21 @@ Heroes of the Storm stats dashboard using TanStack Start, Bun, and the HeroesPro
 
 ## Phase 6: Polish & Testing — COMPLETE
 
-- [x] 62 unit tests across 6 test files, all passing:
-  - cache.test.ts (7 tests): expiry, key generation, get/set, overwrites
-  - patches.test.ts (7 tests): version sorting, previousPatch null, empty data, error handling
-  - format.test.ts (12 tests): win rate color boundaries, number formatting, percent formatting
-  - filters.test.ts (11 tests): mode/tier mapping, search schema validation and defaults
-  - api.test.ts (21 tests): all 6 server functions tested — URL construction, caching TTLs, error responses (network/non-200/parse), cache hits skip fetch
-  - env.test.ts (4 tests): token validation, missing/empty token throws, base URL constant
+- [x] 62 unit tests across 6 test files, all passing
 - [x] No TypeScript errors (`bun run typecheck`)
 - [x] No lint errors (`bun run lint`)
 - [x] Clean build (`bun run build`)
 
-## Bugs fixed (0.0.3)
+## Bugs fixed (0.0.4)
 
-- **Zero win-rate change rendered as red negative** — `change === 0` fell into the negative branch, showing red `−0.0%`. Now shows neutral `0.0%`.
-- **Shadow CSS values didn't match design-system spec** — opacity values were too low (0.04 vs spec's 0.05/0.1) and `shadow-md` was missing negative spread values.
-- **API error messages didn't match spec wording** — network errors said generic `err.message` instead of `"HeroesProfile API is not responding"`, non-200 said `"Upstream returned"` instead of `"HeroesProfile API returned"`, parse error said `"Failed to parse JSON response"` instead of `"Failed to parse API response"`.
-- **Hero stats page error message didn't match spec** — showed raw API error instead of spec-required `"Failed to load hero stats. Please try again."`.
-- **Loader crashes on `resolveLatestPatch` failure** — both index and hero talent page loaders threw unhandled errors to the root error boundary. Now wrapped in try-catch, returning error-shaped results for inline `<ErrorMessage>` rendering.
-- **Hero talent page loader crashed on `getHeroes` failure** — threw `new Error()` instead of returning data the component could render as an inline error.
+- **Eager API token validation** — spec requires app to fail to start if `HEROESPROFILE_API_TOKEN` is missing. Added `getApiToken()` call at server entry (`src/server.ts`) so the app crashes immediately on startup, not lazily on first request.
+- **Cache key parameter naming** — cache keys used snake_case (`game_type`, `league_tier`) instead of spec-required camelCase (`gameType`, `leagueTier`). Fixed in `getHeroStats`, `getTalentDetails`, `getTalentBuilds`.
+- **Table not horizontally scrollable on mobile** — `.heroes-table-wrapper` used `overflow: hidden` which clipped the table. Added `@media (max-width: 768px)` rule with `overflow-x: auto` for horizontal scroll.
+- **Build row layout wrong** — win rate and games played were side-by-side. Spec requires games played below win rate. Changed `.build-row-right` to `flex-direction: column` with `align-items: flex-end`.
+- **Best talent hover lost green border** — `.talent-card--best:hover` overrode green border with accent color. Fixed to preserve `var(--green)` border on hover.
+- **Pending components missing FilterBar** — both index and hero talent skeleton/pending states omitted FilterBar and back link, causing layout shift. Added static FilterBar and back link to both pending components.
+- **Games played conditionally hidden** — `TalentCard` and `BuildRow` hid games played entirely when `undefined`. Now always renders, showing "—" as fallback.
+- **Change column used Unicode minus** — negative win rate change used U+2212 (mathematical minus) instead of spec-required ASCII hyphen-minus.
 
 ## Remaining: Integration Verification (manual)
 
@@ -80,5 +78,4 @@ Heroes of the Storm stats dashboard using TanStack Start, Bun, and the HeroesPro
 - `HeroPortrait` shows initials only — no actual hero portrait images from API/CDN.
 - In-memory cache has no size cap — unbounded growth possible with many distinct filter combos in long-running processes.
 - `getHeroTalents` metadata lookup by talent `title` string silently falls back to initials if names don't match exactly.
-- `getApiToken` fails lazily on first API request, not eagerly at startup. Spec says app should fail to start if token is missing.
 - `timeframeType` parameter is hardcoded to `"minor"` in all server functions (spec allows `"major"` or `"minor"` but v1 only uses minor).
