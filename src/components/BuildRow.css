@@ -1,0 +1,78 @@
+.build-row {
+	display: flex;
+	align-items: center;
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 10px;
+	box-shadow: var(--shadow-sm);
+	padding: 0.75rem 1rem;
+	transition: all 0.15s;
+	gap: 0.75rem;
+}
+
+.build-row:hover {
+	border-color: var(--accent);
+	box-shadow: var(--shadow-md);
+}
+
+.build-row-rank {
+	font-size: 0.875rem;
+	font-weight: 700;
+	color: var(--text-muted);
+	width: 24px;
+	text-align: center;
+	flex-shrink: 0;
+}
+
+.build-row-talents {
+	display: flex;
+	align-items: center;
+	gap: 0.375rem;
+}
+
+.build-row-talent-icon {
+	width: 32px;
+	height: 32px;
+	border-radius: 6px;
+	flex-shrink: 0;
+}
+
+.build-row-talent-icon--placeholder {
+	background-color: var(--bg);
+	border: 1px solid var(--border);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.75rem;
+	font-weight: 700;
+	color: var(--text-muted);
+}
+
+.build-row-right {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.build-row-win-rate {
+	font-size: 0.9375rem;
+	font-weight: 700;
+}
+
+.build-row-win-rate--green {
+	color: var(--green);
+}
+
+.build-row-win-rate--yellow {
+	color: var(--yellow);
+}
+
+.build-row-win-rate--red {
+	color: var(--red);
+}
+
+.build-row-games {
+	font-size: 0.75rem;
+	color: var(--text-muted);
+}

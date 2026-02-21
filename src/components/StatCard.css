@@ -1,0 +1,25 @@
+.stat-card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 10px;
+	box-shadow: var(--shadow-sm);
+	padding: 1rem 1.25rem;
+}
+
+.stat-card-label {
+	font-size: 0.75rem;
+	color: var(--text-muted);
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.stat-card-value {
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	color: var(--text);
+}

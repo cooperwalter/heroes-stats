@@ -1,0 +1,120 @@
+.hero-talent-page {
+	padding-top: 1.5rem;
+	padding-bottom: 3rem;
+}
+
+.hero-talent-header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
+.hero-talent-title {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+}
+
+.hero-talent-role {
+	font-size: 0.875rem;
+	color: var(--text-muted);
+	font-weight: 500;
+}
+
+.hero-talent-back {
+	font-size: 0.875rem;
+	color: var(--accent);
+	font-weight: 500;
+	white-space: nowrap;
+	margin-top: 0.375rem;
+}
+
+.hero-talent-back:hover {
+	color: var(--accent-hover);
+}
+
+.hero-talent-filters {
+	margin-bottom: 2rem;
+}
+
+.hero-talent-empty {
+	color: var(--text-muted);
+	font-size: 0.9375rem;
+	margin-top: 2rem;
+}
+
+.hero-talent-tiers {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.hero-talent-tier {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.hero-talent-tier-header {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.hero-talent-level-badge {
+	background-color: var(--accent);
+	color: #fff;
+	font-size: 0.6875rem;
+	font-weight: 700;
+	padding: 0.125rem 0.5rem;
+	border-radius: 5px;
+	line-height: 1.4;
+}
+
+.hero-talent-level-label {
+	font-size: 0.75rem;
+	font-weight: 600;
+	color: var(--text-muted);
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+.hero-talent-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+.hero-talent-cards > * {
+	flex: 1;
+}
+
+.hero-talent-builds {
+	margin-top: 3rem;
+}
+
+.hero-talent-builds h2 {
+	margin-bottom: 1rem;
+}
+
+.hero-talent-builds-list {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+	.hero-talent-header {
+		flex-direction: column;
+	}
+
+	.hero-talent-cards {
+		flex-direction: column;
+	}
+
+	.hero-talent-cards > * {
+		flex: none;
+	}
+}

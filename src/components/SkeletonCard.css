@@ -1,0 +1,36 @@
+@keyframes skeleton-pulse {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.4;
+	}
+}
+
+.skeleton-card {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 10px;
+	box-shadow: var(--shadow-sm);
+	padding: 1rem 1.25rem;
+}
+
+.skeleton-card-bar {
+	background-color: var(--border);
+	border-radius: 4px;
+	animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-card-bar--label {
+	height: 10px;
+	width: 72px;
+}
+
+.skeleton-card-bar--value {
+	height: 24px;
+	width: 112px;
+}

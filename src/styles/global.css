@@ -1,0 +1,97 @@
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+:root {
+	--bg: #f8f9fb;
+	--surface: #ffffff;
+	--surface-hover: #f3f4f6;
+	--border: #e5e7eb;
+	--border-strong: #d1d5db;
+
+	--text: #111827;
+	--text-secondary: #374151;
+	--text-muted: #6b7280;
+
+	--accent: #2563eb;
+	--accent-hover: #1d4ed8;
+	--accent-light: #eff6ff;
+
+	--green: #059669;
+	--green-bg: #ecfdf5;
+	--red: #dc2626;
+	--red-bg: #fef2f2;
+	--yellow: #d97706;
+	--yellow-bg: #fffbeb;
+
+	--shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+	--shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+	--shadow-md: 0 4px 6px rgba(0, 0, 0, 0.06), 0 2px 4px rgba(0, 0, 0, 0.04);
+
+	--radius-sm: 6px;
+	--radius: 8px;
+	--radius-md: 10px;
+	--radius-lg: 12px;
+	--radius-full: 9999px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	font-family: "Inter", system-ui, -apple-system, sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.5;
+	color: var(--text);
+	background-color: var(--bg);
+}
+
+h1 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: -0.03em;
+	color: var(--text);
+}
+
+h2 {
+	font-size: 1.25rem;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	color: var(--text);
+}
+
+a {
+	color: var(--accent);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--accent-hover);
+}
+
+table {
+	font-variant-numeric: tabular-nums;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+	.container {
+		padding: 0 1rem;
+	}
+}

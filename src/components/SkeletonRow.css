@@ -1,0 +1,38 @@
+@keyframes skeleton-pulse {
+	0%,
+	100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.4;
+	}
+}
+
+.skeleton-row {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	padding: 0.75rem 1rem;
+	background-color: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 10px;
+}
+
+.skeleton-bar {
+	height: 14px;
+	background-color: var(--border);
+	border-radius: 4px;
+	animation: skeleton-pulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-bar--sm {
+	width: 48px;
+}
+
+.skeleton-bar--md {
+	width: 96px;
+}
+
+.skeleton-bar--lg {
+	width: 160px;
+}

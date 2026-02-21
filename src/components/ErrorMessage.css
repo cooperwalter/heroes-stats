@@ -1,0 +1,31 @@
+.error-message {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.75rem;
+	background-color: var(--red-bg);
+	border: 1px solid var(--red);
+	border-radius: 8px;
+	padding: 0.625rem 0.875rem;
+}
+
+.error-message-text {
+	font-size: 0.875rem;
+	color: var(--red);
+}
+
+.error-message-retry {
+	background-color: var(--accent);
+	color: #ffffff;
+	border: none;
+	border-radius: 6px;
+	font-size: 0.8125rem;
+	font-weight: 600;
+	padding: 0.3125rem 0.75rem;
+	cursor: pointer;
+	font-family: inherit;
+	transition: background-color 0.15s;
+}
+
+.error-message-retry:hover {
+	background-color: var(--accent-hover);
+}
