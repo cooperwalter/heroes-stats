@@ -1,0 +1,16 @@
+[    1740ms] [ERROR] Access to fetch at 'https://hbopenbid.pubmatic.com/translator?source=prebid-client&gzip=1' from origin 'https://www.heroesprofile.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.heroesprofile.com/:0
+[    1740ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://hbopenbid.pubmatic.com/translator?source=prebid-client&gzip=1:0
+[    2240ms] [WARNING] [Audigent] cannot find __gpp framework @ https://a.ad.gt/api/v1/u/matches/288?_it=amazon:0
+[    2965ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4159ms] SecurityError: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://4d3bdc3704f13d0c818d2b6d5c2ccdb6.safeframe.googlesyndication.com" from accessing a cross-origin frame.
+    at <anonymous>:1:59942
+    at ft (<anonymous>:1:108023)
+[   27975ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[   28278ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://tags.bluekai.com/site/2981?id=&gdpr=0&google_gid=CAESELrJNuiud6iy1tEqiBvDb4I&google_cver=1:0
+[   28278ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://tags.bluekai.com/site/2981?redir=https%3A%2F%2Fcm.g.doubleclick.net%2Fpixel%3Fgoogle_nid%3Dbluekai%26google_hm%3D%24_BK_UUID_B64&gdpr=0:0
+[   28356ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://x.dlx.addthis.com/e/googlegdn_sync?na_exid=CAESEMXQHr9uR64bCnY3EMkk_QM&gdpr=0&google_cver=1:0
+[    2965ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    2965ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   28386ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   28387ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   28741ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://pxdrop.lijit.com/private/ping?site=cncabwc7;ehls1=d693f792141afcc6ed263fd681af4086ba96336f;ehlm5=067a4373d0a4e39fbd3c664457a11b4c;ehls2=99963ad1f088457e3dae6b40c62e582078707d321ed3756f0b025db0d16c544b;xid=3wq3fvlcf67n53ffj6mu6yakhik3df;lt=1771644263;ft=1771643883;ct=1771644335338:0

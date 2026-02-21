@@ -1,0 +1,28 @@
+[    2390ms] [WARNING] [Audigent] cannot find __gpp framework @ https://a.ad.gt/api/v1/u/matches/288?_it=amazon:0
+[    2849ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    2915ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    4241ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4241ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4241ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4529ms] [WARNING] <link rel=preload> has an invalid `href` value @ https://s0.2mdn.net/sadbundle/9352409153981093382/index.html?ev=01_262:0
+[    4552ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4554ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4586ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.heroesprofile.com/Global/Leaderboard:0
+[    4658ms] [ERROR] Attestation check for Attribution Reporting on https://ad.doubleclick.net failed. @ https://www.heroesprofile.com/Global/Leaderboard:0
+[    5212ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[   33776ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[   33812ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    4241ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4552ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4554ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   33980ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   35570ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cw.addthis.com/t.gif?pid=88&pidt=0&pdid=2e99aeee-536a-46f8-b66a-1863e68b9073&cu=:0
+[   35674ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cw.addthis.com/t.gif?pid=88&pidt=0&pdid=2e99aeee-536a-46f8-b66a-1863e68b9073&cu=:0
+[   55822ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ https://pxdrop.lijit.com/private/ping?site=cncabwc7;ehls1=d3eac339f75c963be67db203d6c7a6832174c750;ehlm5=5d8aec754eedb9ff472408405e7eedf4;ehls2=7a23cc3f686b7fbaf39328c56ab67aee1e031d6478ce03224d0019c457fbed45;xid=3wq3fvlcf67n53ffj6mu6yakhik3df;lt=1771644130;ft=1771643883;ct=1771644263523:0
+[   64473ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[   64528ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    4241ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4552ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4554ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   33980ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[   65141ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0

@@ -1,0 +1,28 @@
+[    1899ms] [WARNING] [Audigent] cannot find __gpp framework @ https://a.ad.gt/api/v1/u/matches/288?_it=amazon:0
+[    2744ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    2753ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    2800ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    3233ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3475ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3639ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://s.ad.smaato.net/c/?dspid=1001950&dspCookie=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0
+[    3987ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://tpc.googlesyndication.com') does not match the recipient window's origin ('https://www.heroesprofile.com'). @ https://imasdk.googleapis.com/js/sdkloader/ima3.js:802
+[    3639ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://s.ad.smaato.net/c/?dspid=1001950&dspCookie=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0
+[    4007ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://s.ad.smaato.net/c/?dspid=1001950&dspCookie=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0
+[    4297ms] SecurityError: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://610331f3417b742fa002e67fa5e40f23.safeframe.googlesyndication.com" from accessing a cross-origin frame.
+    at <anonymous>:1:59942
+    at ft (<anonymous>:1:108023)
+[    3233ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3475ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4301ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4766ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://s.ad.smaato.net/c/?dspid=1001950&dspCookie=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0
+[    4938ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/syn:0
+[    4940ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://x.bidswitch.net/sync?ssp=synacor&user_id=EFBBE3A7FDB742058B879009402E0BA7:0
+[    4996ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://s.ad.smaato.net/c/?dspid=1001950&dspCookie=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0
+[    5029ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://sync.pubrise.ai/e5844e3c48412f10e62a721783ab5f3b.gif?puid=eea12903-201f-b273-fd60-434d0b17d2f9&redir=[RED]&gdpr=[GDPR]&gdpr_consent=[GDPR_CONSENT]&coppa=[COPPA]&gpp=[GPP]&gpp_sid=[GPP_SID]&usprivacy=[US_PRIVACY]:0
+[    5243ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/syn:0
+[    5248ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://x.bidswitch.net/sync?ssp=synacor&user_id=EFBBE3A7FDB742058B879009402E0BA7:0
+[    5278ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://cpm.vistarsagency.com/user-sync?zone=262853&t=image&r=https%3A%2F%2Ftracker.rtb-oveeo.com%2Fsync%3Fid%3D189%26uid%3D%5BUID%5D:0
+[    5353ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://s.ad.smaato.net/c/?dspid=1001950&dspCookie=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0
+[    6006ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://cs.krushmedia.com/2ba4526eb6337f62742eedc3eec95d96.gif?puid=e683a139-270d-49f7-9ca7-84d0c2446b15&redir=[RED]&gdpr=[GDPR]&gdpr_consent=[GDPR_CONSENT]&ccpa=[CCPA]&coppa=[COPPA]:0
+[    9264ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://x.bidswitch.net/sync?ssp=iqzone&user_id=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0
+[    9564ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://x.bidswitch.net/sync?ssp=iqzone&user_id=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0

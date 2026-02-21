@@ -1,0 +1,12 @@
+[    2002ms] [WARNING] [Audigent] cannot find __gpp framework @ https://a.ad.gt/api/v1/u/matches/288?_it=amazon:0
+[    2717ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    2724ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    2750ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    3330ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    3705ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://s.ad.smaato.net/c/?dspid=1001950&dspCookie=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0
+[    3718ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cw.addthis.com/t.gif?pid=88&pidt=0&pdid=2e99aeee-536a-46f8-b66a-1863e68b9073&cu=:0
+[    3853ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://cw.addthis.com/t.gif?pid=88&pidt=0&pdid=2e99aeee-536a-46f8-b66a-1863e68b9073&cu=:0
+[    4607ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://measureadv.com/userIframe?gdpr=0&gdpr_consent=&p=3&redirect=https://csync.smilewanted.com/set_partner_userid_get/videoheroes/{UID}:0
+[    5075ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://x.bidswitch.net/sync?ssp=synacor&user_id=EFBBE3A7FDB742058B879009402E0BA7:0
+[    5136ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://match.prod.bidr.io/cookie-sync/syn:0
+[    6822ms] [ERROR] Failed to load resource: net::ERR_TOO_MANY_REDIRECTS @ https://x.bidswitch.net/sync?ssp=iqzone&user_id=6d6ed353-6b0f-4846-8bb3-1242f00cb339:0

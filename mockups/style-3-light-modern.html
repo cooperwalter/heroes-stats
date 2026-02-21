@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Style 3: Light Modern — Clean & Airy</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #f8f9fb;
+    --surface: #ffffff;
+    --surface-hover: #f3f4f6;
+    --border: #e5e7eb;
+    --border-strong: #d1d5db;
+    --text: #111827;
+    --text-secondary: #374151;
+    --text-muted: #6b7280;
+    --accent: #2563eb;
+    --accent-hover: #1d4ed8;
+    --accent-light: #eff6ff;
+    --green: #059669;
+    --green-bg: #ecfdf5;
+    --red: #dc2626;
+    --red-bg: #fef2f2;
+    --yellow: #d97706;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -2px rgba(0,0,0,0.1);
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+
+  nav {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .nav-brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--text);
+    letter-spacing: -0.02em;
+  }
+
+  .nav-brand span { color: var(--accent); }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: color 0.15s;
+  }
+
+  .nav-links a:hover { color: var(--text); }
+  .nav-links a.active {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .page-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .page-header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text);
+    letter-spacing: -0.03em;
+  }
+
+  .page-header p {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+
+  .filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .filter-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    padding: 0.4375rem 0.875rem;
+    border-radius: 8px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .filter-btn:hover {
+    border-color: var(--border-strong);
+    background: var(--surface-hover);
+  }
+
+  .filter-btn.active {
+    background: var(--accent-light);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .filter-btn svg {
+    width: 14px;
+    height: 14px;
+    opacity: 0.4;
+  }
+
+  .stats-summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .stat-card .label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .stat-card .value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.25rem;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+
+  .table-wrapper {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  thead { background: var(--bg); }
+
+  th {
+    text-align: left;
+    padding: 0.6875rem 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--border);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  th:hover { color: var(--text-secondary); }
+  th.sorted { color: var(--accent); }
+
+  td {
+    padding: 0.5625rem 1rem;
+    font-size: 0.875rem;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    color: var(--text-secondary);
+  }
+
+  tr:last-child td { border-bottom: none; }
+
+  tr:hover td { background: var(--surface-hover); }
+
+  .hero-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .hero-portrait {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    flex-shrink: 0;
+  }
+
+  .hero-name { color: var(--text); font-weight: 600; }
+  .hero-role { font-size: 0.75rem; color: var(--text-muted); font-weight: 400; }
+
+  .wr-high { color: var(--green); font-weight: 600; }
+  .wr-mid { color: var(--yellow); font-weight: 600; }
+  .wr-low { color: var(--red); font-weight: 600; }
+
+  .wr-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.125rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+  }
+
+  .wr-badge.high { background: var(--green-bg); color: var(--green); }
+  .wr-badge.mid { background: #fffbeb; color: var(--yellow); }
+  .wr-badge.low { background: var(--red-bg); color: var(--red); }
+
+  .bar-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .bar {
+    width: 60px;
+    height: 6px;
+    background: var(--bg);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.3s;
+  }
+
+  .bar-fill.green { background: var(--green); }
+  .bar-fill.blue { background: var(--accent); opacity: 0.6; }
+
+  .change-positive { color: var(--green); font-size: 0.8125rem; font-weight: 500; }
+  .change-negative { color: var(--red); font-size: 0.8125rem; font-weight: 500; }
+
+  .talent-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+
+  .talent-section h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    letter-spacing: -0.02em;
+    color: var(--text);
+  }
+
+  .talent-section .subtitle {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .talent-tier {
+    margin-bottom: 1.25rem;
+  }
+
+  .talent-tier-header {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .tier-level {
+    background: var(--accent);
+    color: white;
+    padding: 0.125rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.6875rem;
+    font-weight: 700;
+  }
+
+  .talent-row {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .talent-card {
+    flex: 1;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.875rem 1rem;
+    transition: all 0.15s;
+    cursor: pointer;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .talent-card:hover {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-md);
+  }
+
+  .talent-card.best {
+    border-color: var(--green);
+    background: linear-gradient(135deg, var(--green-bg), var(--surface));
+  }
+
+  .talent-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .talent-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    flex-shrink: 0;
+  }
+
+  .talent-name {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .talent-stats {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+  }
+
+  .talent-stats strong { color: var(--text-secondary); font-weight: 600; }
+
+  .builds-section { margin-top: 2rem; }
+
+  .builds-section h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--text);
+  }
+
+  .build-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.15s;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .build-row:hover {
+    border-color: var(--accent);
+    box-shadow: var(--shadow-md);
+  }
+
+  .build-rank {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    width: 24px;
+    text-align: center;
+  }
+
+  .build-talents {
+    display: flex;
+    gap: 0.375rem;
+  }
+
+  .build-talent-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+  }
+
+  .build-wr {
+    margin-left: auto;
+    text-align: right;
+  }
+
+  .build-wr .wr { font-weight: 700; font-size: 0.9375rem; }
+  .build-wr .games { font-size: 0.75rem; color: var(--text-muted); }
+
+  .style-label {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: var(--accent);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    z-index: 999;
+    box-shadow: var(--shadow-md);
+  }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-brand"><span>Nexus</span>Stats</div>
+  <ul class="nav-links">
+    <li><a href="#" class="active">Hero Stats</a></li>
+    <li><a href="#">Talents</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="page-header">
+    <h1>Hero Statistics</h1>
+    <p>Win rates and pick rates across all heroes. Patch 2.55.15</p>
+  </div>
+
+  <div class="filters">
+    <button class="filter-btn active">Storm League</button>
+    <button class="filter-btn">Quick Match</button>
+    <button class="filter-btn">ARAM</button>
+    <button class="filter-btn">Unranked Draft</button>
+    <span style="width: 1px; background: var(--border); margin: 0 0.25rem;"></span>
+    <button class="filter-btn">All Ranks <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg></button>
+  </div>
+
+  <div class="stats-summary">
+    <div class="stat-card">
+      <div class="label">Total Games</div>
+      <div class="value">247,891</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Heroes Played</div>
+      <div class="value">90</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Avg Win Rate</div>
+      <div class="value">50.0%</div>
+    </div>
+    <div class="stat-card">
+      <div class="label">Most Banned</div>
+      <div class="value" style="font-size: 1.125rem;">Maiev</div>
+    </div>
+  </div>
+
+  <div class="table-wrapper">
+    <table>
+      <thead>
+        <tr>
+          <th style="width: 40px;">#</th>
+          <th>Hero</th>
+          <th class="sorted">Win Rate &#9660;</th>
+          <th>Change</th>
+          <th>Pick Rate</th>
+          <th>Ban Rate</th>
+          <th>Games Played</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td><div class="hero-cell"><div class="hero-portrait">Ma</div><div><div class="hero-name">Maiev</div><div class="hero-role">Melee Assassin</div></div></div></td>
+          <td><span class="wr-badge high">57.2%</span></td>
+          <td><span class="change-positive">+2.1%</span></td>
+          <td><div class="bar-cell">8.1%<div class="bar"><div class="bar-fill blue" style="width: 40%"></div></div></div></td>
+          <td>14.3%</td>
+          <td>3,204</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td><div class="hero-cell"><div class="hero-portrait">Re</div><div><div class="hero-name">Rehgar</div><div class="hero-role">Healer</div></div></div></td>
+          <td><span class="wr-badge high">55.8%</span></td>
+          <td><span class="change-positive">+1.3%</span></td>
+          <td><div class="bar-cell">6.2%<div class="bar"><div class="bar-fill blue" style="width: 31%"></div></div></div></td>
+          <td>1.1%</td>
+          <td>4,891</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td><div class="hero-cell"><div class="hero-portrait">So</div><div><div class="hero-name">Sonya</div><div class="hero-role">Bruiser</div></div></div></td>
+          <td><span class="wr-badge high">55.1%</span></td>
+          <td><span class="change-negative">-0.4%</span></td>
+          <td><div class="bar-cell">5.8%<div class="bar"><div class="bar-fill blue" style="width: 29%"></div></div></div></td>
+          <td>3.2%</td>
+          <td>2,102</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td><div class="hero-cell"><div class="hero-portrait">Li</div><div><div class="hero-name">Li-Ming</div><div class="hero-role">Ranged Assassin</div></div></div></td>
+          <td><span class="wr-badge high">54.1%</span></td>
+          <td><span class="change-positive">+3.8%</span></td>
+          <td><div class="bar-cell">9.8%<div class="bar"><div class="bar-fill blue" style="width: 49%"></div></div></div></td>
+          <td>3.2%</td>
+          <td>6,102</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td><div class="hero-cell"><div class="hero-portrait">Jo</div><div><div class="hero-name">Johanna</div><div class="hero-role">Tank</div></div></div></td>
+          <td><span class="wr-badge high">53.4%</span></td>
+          <td><span class="change-positive">+0.7%</span></td>
+          <td><div class="bar-cell">7.1%<div class="bar"><div class="bar-fill blue" style="width: 35%"></div></div></div></td>
+          <td>2.1%</td>
+          <td>5,422</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td><div class="hero-cell"><div class="hero-portrait">An</div><div><div class="hero-name">Anduin</div><div class="hero-role">Healer</div></div></div></td>
+          <td><span class="wr-badge high">52.6%</span></td>
+          <td><span class="change-negative">-1.2%</span></td>
+          <td><div class="bar-cell">8.4%<div class="bar"><div class="bar-fill blue" style="width: 42%"></div></div></div></td>
+          <td>0.8%</td>
+          <td>7,310</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td><div class="hero-cell"><div class="hero-portrait">De</div><div><div class="hero-name">Deathwing</div><div class="hero-role">Bruiser</div></div></div></td>
+          <td><span class="wr-badge mid">50.3%</span></td>
+          <td><span class="change-positive">+0.1%</span></td>
+          <td><div class="bar-cell">4.2%<div class="bar"><div class="bar-fill blue" style="width: 21%"></div></div></div></td>
+          <td>5.8%</td>
+          <td>3,891</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td><div class="hero-cell"><div class="hero-portrait">Va</div><div><div class="hero-name">Valla</div><div class="hero-role">Ranged Assassin</div></div></div></td>
+          <td><span class="wr-badge mid">49.1%</span></td>
+          <td><span class="change-negative">-2.4%</span></td>
+          <td><div class="bar-cell">11.2%<div class="bar"><div class="bar-fill blue" style="width: 56%"></div></div></div></td>
+          <td>0.4%</td>
+          <td>8,912</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td><div class="hero-cell"><div class="hero-portrait">Ge</div><div><div class="hero-name">Genji</div><div class="hero-role">Ranged Assassin</div></div></div></td>
+          <td><span class="wr-badge low">46.8%</span></td>
+          <td><span class="change-negative">-1.0%</span></td>
+          <td><div class="bar-cell">3.9%<div class="bar"><div class="bar-fill blue" style="width: 19%"></div></div></div></td>
+          <td>2.7%</td>
+          <td>2,441</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="talent-section">
+    <h2>Maiev Talent Statistics</h2>
+    <p class="subtitle">Storm League &middot; All Ranks &middot; Patch 2.55.15</p>
+
+    <div class="talent-tier">
+      <div class="talent-tier-header"><span class="tier-level">1</span> Level 1</div>
+      <div class="talent-row">
+        <div class="talent-card best">
+          <div class="talent-card-header">
+            <div class="talent-icon"></div>
+            <div class="talent-name">Naisha's Memento</div>
+          </div>
+          <div class="talent-stats">
+            <span>Win Rate <strong class="wr-high">59.4%</strong></span>
+            <span>Popularity <strong>62.1%</strong></span>
+            <span>Games <strong>1,988</strong></span>
+          </div>
+        </div>
+        <div class="talent-card">
+          <div class="talent-card-header">
+            <div class="talent-icon"></div>
+            <div class="talent-name">Pursuit of Vengeance</div>
+          </div>
+          <div class="talent-stats">
+            <span>Win Rate <strong class="wr-high">55.2%</strong></span>
+            <span>Popularity <strong>28.3%</strong></span>
+            <span>Games <strong>907</strong></span>
+          </div>
+        </div>
+        <div class="talent-card">
+          <div class="talent-card-header">
+            <div class="talent-icon"></div>
+            <div class="talent-name">Pin Down</div>
+          </div>
+          <div class="talent-stats">
+            <span>Win Rate <strong class="wr-mid">50.8%</strong></span>
+            <span>Popularity <strong>9.6%</strong></span>
+            <span>Games <strong>309</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="talent-tier">
+      <div class="talent-tier-header"><span class="tier-level">4</span> Level 4</div>
+      <div class="talent-row">
+        <div class="talent-card best">
+          <div class="talent-card-header">
+            <div class="talent-icon"></div>
+            <div class="talent-name">Blade Dance</div>
+          </div>
+          <div class="talent-stats">
+            <span>Win Rate <strong class="wr-high">58.1%</strong></span>
+            <span>Popularity <strong>55.4%</strong></span>
+            <span>Games <strong>1,774</strong></span>
+          </div>
+        </div>
+        <div class="talent-card">
+          <div class="talent-card-header">
+            <div class="talent-icon"></div>
+            <div class="talent-name">Bonds of Corruption</div>
+          </div>
+          <div class="talent-stats">
+            <span>Win Rate <strong class="wr-high">56.9%</strong></span>
+            <span>Popularity <strong>34.2%</strong></span>
+            <span>Games <strong>1,096</strong></span>
+          </div>
+        </div>
+        <div class="talent-card">
+          <div class="talent-card-header">
+            <div class="talent-icon"></div>
+            <div class="talent-name">Enveloping Shadows</div>
+          </div>
+          <div class="talent-stats">
+            <span>Win Rate <strong class="wr-mid">49.3%</strong></span>
+            <span>Popularity <strong>10.4%</strong></span>
+            <span>Games <strong>334</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="builds-section">
+      <h3>Popular Builds</h3>
+      <div class="build-row">
+        <div class="build-rank">1</div>
+        <div class="build-talents">
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+        </div>
+        <div class="build-wr">
+          <div class="wr wr-high">59.8%</div>
+          <div class="games">1,204 games</div>
+        </div>
+      </div>
+      <div class="build-row">
+        <div class="build-rank">2</div>
+        <div class="build-talents">
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+        </div>
+        <div class="build-wr">
+          <div class="wr wr-high">56.3%</div>
+          <div class="games">891 games</div>
+        </div>
+      </div>
+      <div class="build-row">
+        <div class="build-rank">3</div>
+        <div class="build-talents">
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+          <div class="build-talent-icon"></div>
+        </div>
+        <div class="build-wr">
+          <div class="wr wr-high">54.1%</div>
+          <div class="games">672 games</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="style-label">Style 3: Light Modern</div>
+</body>
+</html>

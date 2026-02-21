@@ -1,0 +1,4 @@
+[    1725ms] [ERROR] Access to fetch at 'https://api.rlcdn.com/api/identity/envelope?pid=2173' from origin 'https://www.heroesprofile.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.heroesprofile.com/:0
+[    1725ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://api.rlcdn.com/api/identity/envelope?pid=2173:0
+[    2936ms] [WARNING] [Audigent] cannot find __gpp framework @ https://a.ad.gt/api/v1/u/matches/288?_it=amazon:0
+[    3665ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0

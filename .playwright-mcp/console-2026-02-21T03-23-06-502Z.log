@@ -1,0 +1,7 @@
+[    1967ms] [WARNING] [Audigent] cannot find __gpp framework @ https://a.ad.gt/api/v1/u/matches/288?_it=amazon:0
+[    2415ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    2456ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://cadmus.script.ac/d1oykxszdrgjgl/script.js:0
+[    2933ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    4051ms] SecurityError: Failed to read a named property 'document' from 'Window': Blocked a frame with origin "https://79422e4bc5220aa870cac3d7d1df0bc0.safeframe.googlesyndication.com" from accessing a cross-origin frame.
+    at <anonymous>:1:59942
+    at ft (<anonymous>:1:108023)

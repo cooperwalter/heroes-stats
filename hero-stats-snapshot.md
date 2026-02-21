@@ -1,0 +1,1610 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - iframe [ref=e1699]:
+      - generic [active]:
+        - img [ref=f353e4] [cursor=pointer]
+        - button [ref=f353e7] [cursor=pointer]:
+          - img [ref=f353e8]
+        - generic [ref=f353e16]:
+          - generic [ref=f353e17]:
+            - generic:
+              - img [ref=f353e21] [cursor=pointer]
+              - button [ref=f353e24] [cursor=pointer]:
+                - img [ref=f353e25]
+          - generic [ref=f353e33]:
+            - link [ref=f353e34] [cursor=pointer]:
+              - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CS1Eo6SOZacnYINeywNYP_su9iQ320Ofqe56W0t2AEpiltpWLAxABIKed4SNgyfb2i8ykiBmgAbH6_-oCyAEJqAMByAObBKoE9QFP0LPVEAUr4bnrOIdERQ4zS16SET1PuMwCvhgE3sfJ-yv3RvfRVu_QdP-IBZye5dBcEnUPyyHQVe0yO79SmSHsir8-42luajydHajbeSgrLA0a6KevkNTKb_bMf7D9TcMLKYHiU17giQAgyMujdU3REfusZWTA6zvZnifH_1BiXXpc6it0yihhvFl9hxo8oYqNWvt66EbMSdPE7vIqLeUtr85IBuh59oQelh7ewaSM0zIY5EIkCWCF6cTnekJnNaA5otXnZcndmdVhEHTdPiOxABQ-V_qdhMs-bGD45xnZGOOyeyGb7Et5AXv2F93ygXSNttVE5cAEmOrijNAC4AQDiAW8yJWKHpAGAaAGTYAHt4WAlQGoB6fMsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB_jCsQKoB_vCsQKoB-fXsQLYBwDSCDAIgOGAQBABGF8yCIuCgICAgIAIOg2AQIDAgICAgKiAAqgDSL39wTpYkovo4c_pkgPyCA5iaWRkZXItMTAwMTY4NIAKBJgLAcgLAYAMAaIMCCoGCgTW2rECqg0CVVPwDQGIDg6wE6Kn4iDYEw3YFAHQFQHKFgIKAPgWAYAXAbIXDhgCKgo2MjIyNDIwOTg0shgJEgKxXxhNIgEA0BkB2BkB&ae=1&num=1&cid=CAQSrgIA56J1eT3O0Yzmli5NsszHCAFd0gjGYt_GQJCWopCG7V-gUzS612edHJM5rxthzjIFbwXHp06bp7t5H7UqdYKe-euYC9eacC9oNWx_Fzz5EK80gPsYRRGl6Hw5Y_sAJ3AwGK-FyLb-lv7Jwqx0GrOi1pQZSnWJlg3FL7KVOO2o5LeQdrhWiQLsZkkZ5wM7-8qLwcFcDrGFGoto1BwEKAyoZg1C-e6hUVIXm7uUfcMyQgw3hg9WdKZYoRes7-fwFleSBC8CDK2DboWevAPvMEFNpIMy2GnzQZwZeC5yDPBC8a62AdNsOm-hXNQQZ4wfuIcFoBu2yEMK2_e8NuwlVol6-IHwxpFT5kJIoUMYnv6qgMzRQbTjL67r155DXtZJMeYk33BRWDyQY9MyJh51mhgB&sig=AOD64_1aWJ51YXN6o5SANkHn39C7JuZ5AQ&client=ca-pub-1640496599382717&dbm_c=AKAmf-AxOx3G2gN_PlysWzK7jitWZtbObhLKY_0HS-FVLNew3gZYE7qGyVIvsyIdsysd3lpjL9No2XhOuFu5mv57iVzEPjGqFv9demwIiwXP7GG_KWs2d2dAt-6_au_JJ7cC0e4wzSo3c_VLxsgzsYsrcFNRHlBQbqQc_A4wrHMyLPooI33gOy4AiSgwCg4g93XCcPaNe6kZMflkQ15hfIVOSlqPLVdt8km5S5l4kuoa5NGfAEhviILBEt1Wqj-3KYTVB57GbnHjK1iL6STXa6VkR110z1uIuw&cry=1&dbm_d=AKAmf-DiPbuueY-ndCkYupMQLpKVkRna8vpFY9gE1BdZoxKXxMVT8t_-pXtE9AEIaRqCi4vPiL87sjWCq0J0ZXv28gR0kKcxAxXEHGCsPN5rbU0U9pbB4FtL6y0FwnvlozvCgOmQHC3dset1UAUl-F2ETfnB7f7SkQLUPoqWz_VAWhYsBez58sG6jqr1BaYFpN6-j3R3d2tALEXNOwXyg6Ecq-cUovmCaf54vTNmAiwQk1jHD-CRlFsCP4BzqXVJaJkdYyQ09OYEA-UADvzgHj6d4sRNTP2TFtE2abY_k4UoXDIJEf_A-OWM2lFcyFpHtdAOWMRwtVcywoeRFax6QrQdXj1Y9SqB4AjeJBKjJEg1tVWztJoOvlQNvXLjHZSI1Zv56yoMlWcRYpISUj-QEuE5IuL0eBWnwl_fw3cU7KFrksI-TnOJ94QB6r3CiW9yrnMUE4p4O9Z0SfD3-fgZ39d9CiFKHxzdpZ-f1AU2BkXwgfez8jq1PNIb9GRXfXOwGlp9Sd-IaE5YyQ246cJY3e9-DrbCg0UUsBHBOJOpwN84CpB0N34NBN4QGWxldvHog84bJEoa9lCq-AIJxUbU8FCx-bo7RItzRaMGVEMs4oQneFMocCfDc-TROJS6bpCL6DPx_fGdBKJNctVdtDJxXVa9kwdtZBOx-Q&adurl=https://servedby.flashtalking.com/click/8/225291;7892207;5554463;211;0/?us_privacy=!!US_PRIVACY!&gdpr=0&ft_impID=CA6C283C-65A4-E125-224E-A94478AF8ADD&g=6626E6EFE460FA&random=221050.15917991044&ft_width=728&ft_height=90&url=https://www.adobe.com/acrobat/free-trial-download.html?sdid=3SH19YWX&mv=display&mv2=display
+            - iframe [ref=f353e35]:
+              - generic [ref=f391e2] [cursor=pointer]:
+                - img [ref=f391e4]:
+                  - generic [ref=f391e5]:
+                    - generic "Start free trial" [ref=f391e19]
+                    - generic "Share" [ref=f391e52]
+                - button [ref=f391e100]
+            - link "Privacy Notification" [ref=f353e37] [cursor=pointer]:
+              - /url: https://www.flashtalking.com/consumer-privacy
+              - img [ref=f353e38]
+        - iframe
+    - navigation [ref=e11]:
+      - generic [ref=e12]:
+        - link "Heroes Heroes Profile Logo Profile" [ref=e13] [cursor=pointer]:
+          - /url: /
+          - text: Heroes
+          - img "Heroes Profile Logo" [ref=e14]
+          - text: Profile
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: Global Hero Stats
+            - link "|Leaderboards" [ref=e18] [cursor=pointer]:
+              - /url: /Global/Leaderboard
+            - generic [ref=e19]: "|Tools"
+            - link "|Community Esports" [ref=e20] [cursor=pointer]:
+              - /url: /Esports
+            - generic [ref=e21]: "|Help"
+            - generic [ref=e22]:
+              - text: "|Donate"
+              - generic [ref=e24]:
+                - link "Patreon" [ref=e25] [cursor=pointer]:
+                  - /url: https://www.patreon.com/c/heroesprofile
+                - link "Open Collective" [ref=e26] [cursor=pointer]:
+                  - /url: https://opencollective.com/heroes-profile
+          - generic [ref=e27]:
+            - button "API" [ref=e28] [cursor=pointer]
+            - button "Replay Uploader" [ref=e29] [cursor=pointer]
+            - button "Remove Ads / Patreon" [ref=e30] [cursor=pointer]
+          - button "Login" [ref=e31] [cursor=pointer]
+    - navigation [ref=e32]:
+      - generic [ref=e34]:
+        - textbox "Enter a battletag" [ref=e35]
+        - button "Find Player" [disabled] [ref=e36]
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - heading "Global Hero Statistics" [level=1] [ref=e39]:
+          - generic [ref=e41]: Global Hero Statistics
+        - generic [ref=e42]:
+          - paragraph [ref=e44]: Hero win rates based on differing increments, stat types, game type, or rank. Click on a Hero to see detailed information. On the chart, bubble size is a combination of Win Rate, Pick Rate, and Ban Rate
+          - generic:
+            - paragraph
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e50] [cursor=pointer]:
+              - generic [ref=e52]: Timeframe Type
+              - generic [ref=e53]: Minor Patch
+            - generic [ref=e55] [cursor=pointer]:
+              - generic [ref=e57]: Timeframes
+              - generic [ref=e59]: 2.55.15.96477
+            - generic [ref=e61] [cursor=pointer]:
+              - generic [ref=e63]: Game Type
+              - generic [ref=e65]: Storm League
+            - generic [ref=e69] [cursor=pointer]: Regions
+            - generic [ref=e74] [cursor=pointer]: Heroes
+            - generic [ref=e79] [cursor=pointer]: Role
+            - generic [ref=e84] [cursor=pointer]: Map
+            - generic [ref=e89] [cursor=pointer]:
+              - text: HP Player Rank
+              - generic [ref=e92]: 
+            - generic [ref=e95] [cursor=pointer]:
+              - generic [ref=e97]: Talent Build Type
+              - generic [ref=e98]: Popular
+          - button "Filter" [ref=e99] [cursor=pointer]
+        - button "Show Advanced Filters" [ref=e101] [cursor=pointer]
+      - iframe [ref=e1702]:
+        - generic [active] [ref=f352e1]:
+          - img [ref=f352e5] [cursor=pointer]
+          - button [ref=f352e8] [cursor=pointer]:
+            - img [ref=f352e9]
+          - generic [ref=f352e16]:
+            - generic [ref=f352e19]:
+              - generic [ref=f352e22]:
+                - link [ref=f352e23] [cursor=pointer]:
+                  - /url: https://exch.quantserve.com/r?&a=p-1RYxePXT9bCS2&labels=_qc.clk,_click.adserver.rtb,_click.rand.1513067654&rtbip=192.184.70.198&rtbdata2=EA06HWh0dHBzOi8vd3d3Lmhlcm9lc3Byb2ZpbGUuY29tWiRGUFNkY3d5YW9Gc1dxN0pqRkpIREFSZXJzMUFFazF6ZU84ND2AAYapvtEFugEYTU5rbEFMWkhXU2UtaFRSdFNiYUhZNndwwAGohxXIAeWQ0fHHM9oBFkFaeC1ORWhhWVF2SXRVcVZMYzQzY1GwAg7IAgDQAs7hhvv4n_fMqQHoAi3yAgwILRDf9IawpNrRq0HyAg8IpJwjELWqqq6PjIGJ-wH4AgCKAwYzNjcyMzaYAwCoAwCyAxAmAQHAgAGmwOHcQe3w2okDugMSCX5E2htYGkPxEVkI2ju39NOnwgMSCaxD6BFNnmv1ESZDfBS8yYK2yAPaioAQ2AOGqb7RBeIDD3AtMVJZeGVQWFQ5YkNTMuoDBgjKBxD6AfIDBTk3MzMw-AMAgASwAooEAjc3mgQSCcdLCgLHS-9PEaJHFjO3tliJogQSCX5E2htYGkPxEVkI2ju39NOnqgQSCX5E2htYGkPxEVkI2ju39NOnuATQBdAEC_IEAlVTgAUBigUqODA2YjY3MTYyM2ZiMmE4ZDVkYzkzZDdmOTBkMzY0YjU1M2E4NjFiNjg2kAUBmgUVgGtnFiP7Ko1dyT1_kNNktVOoYbaGogUkRlBTZGN3eWFvRnNXcTdKakZKSERBUmVyczFBRWsxemVPODQ9sAUCuAUAwAWGqb7RBcgFm5eqBNIFBggDEAIYB-gFBpoGFAoSCcdLCgLHS-9PEaJHFjO3tliJoAYAtQbuGT44ugZrCgJVUxICT1IYoQYiCWNvcnZhbGxpcyoFOTczMzA6J2NvbWNhc3QlMjBjYWJsZSUyMGNvbW11bmljYXRpb25zJTIwaW5jLloVY29tY2FzdCUyMGNvcnBvcmF0aW9uogELY29tY2FzdC5jb23JBnEwMmXgTq4Q8QYAKDJl4E6uEIAHAIoHEgmsQ-gRTZ5r9REmQ3wUvMmCtrAHldOyBLgHvNz6BNgHBA&redirecturl3=https://servedby.flashtalking.com/click/8/225291;7892524;5554464;211;0/?gdpr=0&ft_impID=29E36954-8D0E-2507-5943-60478DEFF23A&ft_custom=OFQvzTdLP4EgXyGpDVsmtjVtY9MaXwIq8Nc=&g=6626E6EFE460FA&random=381575.6031549041&ft_width=970&ft_height=250&url=https://www.adobe.com/acrobat/free-trial-download.html?sdid=3SH19YWX&mv=display&mv2=display
+                - iframe [ref=f352e24]:
+                  - generic [ref=f365e2] [cursor=pointer]:
+                    - img [ref=f365e4]:
+                      - generic "Start free trial" [ref=f365e19]
+                    - button [ref=f365e95]
+                - link "Privacy Notification" [ref=f352e26] [cursor=pointer]:
+                  - /url: https://www.flashtalking.com/consumer-privacy
+                  - img [ref=f352e27]
+              - link [ref=f352e28] [cursor=pointer]:
+                - /url: https://pixel.quantcount.com/r?a=p-9fYuixa7g_Hm2;rand=1513067654;labels=_click.creative.iab,_qc.iab.clk.p-1RYxePXT9bCS2.0.10399292;redirecturl2=http://www.quantcast.com/adchoices
+                - img [ref=f352e30]
+            - img [ref=f352e31]
+          - iframe
+          - iframe
+      - generic [ref=e107]:
+        - button "Toggle Chart" [ref=e109] [cursor=pointer]
+        - table [ref=e112]:
+          - rowgroup [ref=e113]:
+            - row "Avg 49.47 ±9.86 6.24|-10.05 17.52 11.11 6.41 41|-46 138" [ref=e114]:
+              - columnheader "Avg" [ref=e115] [cursor=pointer]
+              - columnheader "49.47" [ref=e116] [cursor=pointer]
+              - columnheader "±9.86" [ref=e117] [cursor=pointer]
+              - columnheader "6.24|-10.05" [ref=e118] [cursor=pointer]
+              - columnheader "17.52" [ref=e119] [cursor=pointer]
+              - columnheader "11.11" [ref=e120] [cursor=pointer]
+              - columnheader "6.41" [ref=e121] [cursor=pointer]
+              - columnheader "41|-46" [ref=e122] [cursor=pointer]
+              - columnheader "138" [ref=e123] [cursor=pointer]
+              - columnheader [ref=e124] [cursor=pointer]
+          - rowgroup [ref=e125]:
+            - row "Hero Win Rate % Win Rate Confidence Win Rate Change Popularity % Pick Rate % Ban Rate % Influence  Games Played" [ref=e126]:
+              - columnheader "Hero" [ref=e127] [cursor=pointer]
+              - columnheader "Win Rate %" [ref=e128] [cursor=pointer]
+              - columnheader "Win Rate Confidence" [ref=e129] [cursor=pointer]
+              - columnheader "Win Rate Change" [ref=e130] [cursor=pointer]
+              - columnheader "Popularity %" [ref=e131] [cursor=pointer]
+              - columnheader "Pick Rate %" [ref=e132] [cursor=pointer]
+              - columnheader "Ban Rate %" [ref=e133] [cursor=pointer]
+              - columnheader "Influence " [ref=e134] [cursor=pointer]:
+                - generic [ref=e135]:
+                  - generic [ref=e136]: Influence
+                  - generic [ref=e139]: 
+              - columnheader "Games Played" [ref=e140] [cursor=pointer]
+              - columnheader [ref=e141] [cursor=pointer]
+          - rowgroup [ref=e142]:
+            - row "Mephisto Mephisto 67.39 ±13.55 +15.01 4.68 3.71 0.97 65 46 View Talent Builds" [ref=e143]:
+              - cell "Mephisto Mephisto" [ref=e144]:
+                - link "Mephisto Mephisto" [ref=e145] [cursor=pointer]:
+                  - /url: /Global/Talents/Mephisto?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Mephisto" [ref=e148]
+                  - generic [ref=e149]: Mephisto
+              - cell "67.39" [ref=e150]
+              - cell "±13.55" [ref=e151]
+              - cell "+15.01" [ref=e152]
+              - cell "4.68" [ref=e153]
+              - cell "3.71" [ref=e154]
+              - cell "0.97" [ref=e155]
+              - cell "65" [ref=e156]
+              - cell "46" [ref=e157]
+              - cell "View Talent Builds" [ref=e158]:
+                - button "View Talent Builds" [ref=e159] [cursor=pointer]
+            - row "Illidan Illidan 66.35 ±9.08 +19.41 10.98 8.39 2.58 141 104 View Talent Builds" [ref=e160]:
+              - cell "Illidan Illidan" [ref=e161]:
+                - link "Illidan Illidan" [ref=e162] [cursor=pointer]:
+                  - /url: /Global/Talents/Illidan?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Illidan" [ref=e165]
+                  - generic [ref=e166]: Illidan
+              - cell "66.35" [ref=e167]
+              - cell "±9.08" [ref=e168]
+              - cell "+19.41" [ref=e169]
+              - cell "10.98" [ref=e170]
+              - cell "8.39" [ref=e171]
+              - cell "2.58" [ref=e172]
+              - cell "141" [ref=e173]
+              - cell "104" [ref=e174]
+              - cell "View Talent Builds" [ref=e175]:
+                - button "View Talent Builds" [ref=e176] [cursor=pointer]
+            - row "Whitemane Whitemane 59.42 ±11.59 +3.86 6.30 5.57 0.73 53 69 View Talent Builds" [ref=e177]:
+              - cell "Whitemane Whitemane" [ref=e178]:
+                - link "Whitemane Whitemane" [ref=e179] [cursor=pointer]:
+                  - /url: /Global/Talents/Whitemane?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Whitemane" [ref=e182]
+                  - generic [ref=e183]: Whitemane
+              - cell "59.42" [ref=e184]
+              - cell "±11.59" [ref=e185]
+              - cell "+3.86" [ref=e186]
+              - cell "6.30" [ref=e187]
+              - cell "5.57" [ref=e188]
+              - cell "0.73" [ref=e189]
+              - cell "53" [ref=e190]
+              - cell "69" [ref=e191]
+              - cell "View Talent Builds" [ref=e192]:
+                - button "View Talent Builds" [ref=e193] [cursor=pointer]
+            - row "Qhira Qhira 58.51 ±9.96 -7.28 8.15 7.59 0.56 65 94 View Talent Builds" [ref=e194]:
+              - cell "Qhira Qhira" [ref=e195]:
+                - link "Qhira Qhira" [ref=e196] [cursor=pointer]:
+                  - /url: /Global/Talents/Qhira?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Qhira" [ref=e199]
+                  - generic [ref=e200]: Qhira
+              - cell "58.51" [ref=e201]
+              - cell "±9.96" [ref=e202]
+              - cell "-7.28" [ref=e203]
+              - cell "8.15" [ref=e204]
+              - cell "7.59" [ref=e205]
+              - cell "0.56" [ref=e206]
+              - cell "65" [ref=e207]
+              - cell "94" [ref=e208]
+              - cell "View Talent Builds" [ref=e209]:
+                - button "View Talent Builds" [ref=e210] [cursor=pointer]
+            - row "Maiev Maiev 58.21 ±11.81 +4.55 8.07 5.41 2.66 46 67 View Talent Builds" [ref=e211]:
+              - cell "Maiev Maiev" [ref=e212]:
+                - link "Maiev Maiev" [ref=e213] [cursor=pointer]:
+                  - /url: /Global/Talents/Maiev?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Maiev" [ref=e216]
+                  - generic [ref=e217]: Maiev
+              - cell "58.21" [ref=e218]
+              - cell "±11.81" [ref=e219]
+              - cell "+4.55" [ref=e220]
+              - cell "8.07" [ref=e221]
+              - cell "5.41" [ref=e222]
+              - cell "2.66" [ref=e223]
+              - cell "46" [ref=e224]
+              - cell "67" [ref=e225]
+              - cell "View Talent Builds" [ref=e226]:
+                - button "View Talent Builds" [ref=e227] [cursor=pointer]
+            - row "Stukov Stukov 57.43 ±7.97 +2.53 26.55 11.95 14.61 104 148 View Talent Builds" [ref=e228]:
+              - cell "Stukov Stukov" [ref=e229]:
+                - link "Stukov Stukov" [ref=e230] [cursor=pointer]:
+                  - /url: /Global/Talents/Stukov?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Stukov" [ref=e233]
+                  - generic [ref=e234]: Stukov
+              - cell "57.43" [ref=e235]
+              - cell "±7.97" [ref=e236]
+              - cell "+2.53" [ref=e237]
+              - cell "26.55" [ref=e238]
+              - cell "11.95" [ref=e239]
+              - cell "14.61" [ref=e240]
+              - cell "104" [ref=e241]
+              - cell "148" [ref=e242]
+              - cell "View Talent Builds" [ref=e243]:
+                - button "View Talent Builds" [ref=e244] [cursor=pointer]
+            - row "Tychus Tychus 56.67 ±5.91 +6.67 30.75 21.79 8.96 160 270 View Talent Builds" [ref=e245]:
+              - cell "Tychus Tychus" [ref=e246]:
+                - link "Tychus Tychus" [ref=e247] [cursor=pointer]:
+                  - /url: /Global/Talents/Tychus?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Tychus" [ref=e250]
+                  - generic [ref=e251]: Tychus
+              - cell "56.67" [ref=e252]
+              - cell "±5.91" [ref=e253]
+              - cell "+6.67" [ref=e254]
+              - cell "30.75" [ref=e255]
+              - cell "21.79" [ref=e256]
+              - cell "8.96" [ref=e257]
+              - cell "160" [ref=e258]
+              - cell "270" [ref=e259]
+              - cell "View Talent Builds" [ref=e260]:
+                - button "View Talent Builds" [ref=e261] [cursor=pointer]
+            - row "Greymane Greymane 56.35 ±8.66 +12.12 11.38 10.17 1.21 65 126 View Talent Builds" [ref=e262]:
+              - cell "Greymane Greymane" [ref=e263]:
+                - link "Greymane Greymane" [ref=e264] [cursor=pointer]:
+                  - /url: /Global/Talents/Greymane?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Greymane" [ref=e267]
+                  - generic [ref=e268]: Greymane
+              - cell "56.35" [ref=e269]
+              - cell "±8.66" [ref=e270]
+              - cell "+12.12" [ref=e271]
+              - cell "11.38" [ref=e272]
+              - cell "10.17" [ref=e273]
+              - cell "1.21" [ref=e274]
+              - cell "65" [ref=e275]
+              - cell "126" [ref=e276]
+              - cell "View Talent Builds" [ref=e277]:
+                - button "View Talent Builds" [ref=e278] [cursor=pointer]
+            - row "Malthael Malthael 56.16 ±11.38 +23.73 7.51 5.89 1.61 37 73 View Talent Builds" [ref=e279]:
+              - cell "Malthael Malthael" [ref=e280]:
+                - link "Malthael Malthael" [ref=e281] [cursor=pointer]:
+                  - /url: /Global/Talents/Malthael?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Malthael" [ref=e284]
+                  - generic [ref=e285]: Malthael
+              - cell "56.16" [ref=e286]
+              - cell "±11.38" [ref=e287]
+              - cell "+23.73" [ref=e288]
+              - cell "7.51" [ref=e289]
+              - cell "5.89" [ref=e290]
+              - cell "1.61" [ref=e291]
+              - cell "37" [ref=e292]
+              - cell "73" [ref=e293]
+              - cell "View Talent Builds" [ref=e294]:
+                - button "View Talent Builds" [ref=e295] [cursor=pointer]
+            - row "Raynor Raynor 55.50 ±6.74 -2.50 19.05 16.87 2.18 95 209 View Talent Builds" [ref=e296]:
+              - cell "Raynor Raynor" [ref=e297]:
+                - link "Raynor Raynor" [ref=e298] [cursor=pointer]:
+                  - /url: /Global/Talents/Raynor?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Raynor" [ref=e301]
+                  - generic [ref=e302]: Raynor
+              - cell "55.50" [ref=e303]
+              - cell "±6.74" [ref=e304]
+              - cell "-2.50" [ref=e305]
+              - cell "19.05" [ref=e306]
+              - cell "16.87" [ref=e307]
+              - cell "2.18" [ref=e308]
+              - cell "95" [ref=e309]
+              - cell "209" [ref=e310]
+              - cell "View Talent Builds" [ref=e311]:
+                - button "View Talent Builds" [ref=e312] [cursor=pointer]
+            - row "Kerrigan Kerrigan 55.32 ±14.21 -8.32 5.00 3.79 1.21 20 47 View Talent Builds" [ref=e313]:
+              - cell "Kerrigan Kerrigan" [ref=e314]:
+                - link "Kerrigan Kerrigan" [ref=e315] [cursor=pointer]:
+                  - /url: /Global/Talents/Kerrigan?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Kerrigan" [ref=e318]
+                  - generic [ref=e319]: Kerrigan
+              - cell "55.32" [ref=e320]
+              - cell "±14.21" [ref=e321]
+              - cell "-8.32" [ref=e322]
+              - cell "5.00" [ref=e323]
+              - cell "3.79" [ref=e324]
+              - cell "1.21" [ref=e325]
+              - cell "20" [ref=e326]
+              - cell "47" [ref=e327]
+              - cell "View Talent Builds" [ref=e328]:
+                - button "View Talent Builds" [ref=e329] [cursor=pointer]
+            - row "Varian Varian 54.75 ±6.02 +7.60 26.80 21.23 5.57 107 263 View Talent Builds" [ref=e330]:
+              - cell "Varian Varian" [ref=e331]:
+                - link "Varian Varian" [ref=e332] [cursor=pointer]:
+                  - /url: /Global/Talents/Varian?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Varian" [ref=e335]
+                  - generic [ref=e336]: Varian
+              - cell "54.75" [ref=e337]
+              - cell "±6.02" [ref=e338]
+              - cell "+7.60" [ref=e339]
+              - cell "26.80" [ref=e340]
+              - cell "21.23" [ref=e341]
+              - cell "5.57" [ref=e342]
+              - cell "107" [ref=e343]
+              - cell "263" [ref=e344]
+              - cell "View Talent Builds" [ref=e345]:
+                - button "View Talent Builds" [ref=e346] [cursor=pointer]
+            - row "Kel'Thuzad Kel'Thuzad 54.69 ±12.20 -3.85 7.34 5.17 2.18 25 64 View Talent Builds" [ref=e347]:
+              - cell "Kel'Thuzad Kel'Thuzad" [ref=e348]:
+                - link "Kel'Thuzad Kel'Thuzad" [ref=e349] [cursor=pointer]:
+                  - /url: /Global/Talents/Kel'Thuzad?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Kel'Thuzad" [ref=e352]
+                  - generic [ref=e353]: Kel'Thuzad
+              - cell "54.69" [ref=e354]
+              - cell "±12.20" [ref=e355]
+              - cell "-3.85" [ref=e356]
+              - cell "7.34" [ref=e357]
+              - cell "5.17" [ref=e358]
+              - cell "2.18" [ref=e359]
+              - cell "25" [ref=e360]
+              - cell "64" [ref=e361]
+              - cell "View Talent Builds" [ref=e362]:
+                - button "View Talent Builds" [ref=e363] [cursor=pointer]
+            - row "Kharazim Kharazim 54.67 ±11.27 +10.22 6.38 6.05 0.32 28 75 View Talent Builds" [ref=e364]:
+              - cell "Kharazim Kharazim" [ref=e365]:
+                - link "Kharazim Kharazim" [ref=e366] [cursor=pointer]:
+                  - /url: /Global/Talents/Kharazim?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Kharazim" [ref=e369]
+                  - generic [ref=e370]: Kharazim
+              - cell "54.67" [ref=e371]
+              - cell "±11.27" [ref=e372]
+              - cell "+10.22" [ref=e373]
+              - cell "6.38" [ref=e374]
+              - cell "6.05" [ref=e375]
+              - cell "0.32" [ref=e376]
+              - cell "28" [ref=e377]
+              - cell "75" [ref=e378]
+              - cell "View Talent Builds" [ref=e379]:
+                - button "View Talent Builds" [ref=e380] [cursor=pointer]
+            - row "Johanna Johanna 54.61 ±5.70 +6.43 71.59 23.65 47.94 209 293 View Talent Builds" [ref=e381]:
+              - cell "Johanna Johanna" [ref=e382]:
+                - link "Johanna Johanna" [ref=e383] [cursor=pointer]:
+                  - /url: /Global/Talents/Johanna?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Johanna" [ref=e386]
+                  - generic [ref=e387]: Johanna
+              - cell "54.61" [ref=e388]
+              - cell "±5.70" [ref=e389]
+              - cell "+6.43" [ref=e390]
+              - cell "71.59" [ref=e391]
+              - cell "23.65" [ref=e392]
+              - cell "47.94" [ref=e393]
+              - cell "209" [ref=e394]
+              - cell "293" [ref=e395]
+              - cell "View Talent Builds" [ref=e396]:
+                - button "View Talent Builds" [ref=e397] [cursor=pointer]
+            - row "Hogger Hogger 54.47 ±8.80 +0.12 19.77 9.93 9.85 49 123 View Talent Builds" [ref=e398]:
+              - cell "Hogger Hogger" [ref=e399]:
+                - link "Hogger Hogger" [ref=e400] [cursor=pointer]:
+                  - /url: /Global/Talents/Hogger?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Hogger" [ref=e403]
+                  - generic [ref=e404]: Hogger
+              - cell "54.47" [ref=e405]
+              - cell "±8.80" [ref=e406]
+              - cell "+0.12" [ref=e407]
+              - cell "19.77" [ref=e408]
+              - cell "9.93" [ref=e409]
+              - cell "9.85" [ref=e410]
+              - cell "49" [ref=e411]
+              - cell "123" [ref=e412]
+              - cell "View Talent Builds" [ref=e413]:
+                - button "View Talent Builds" [ref=e414] [cursor=pointer]
+            - row "Xul Xul 54.35 ±10.18 +0.86 8.64 7.43 1.21 33 92 View Talent Builds" [ref=e415]:
+              - cell "Xul Xul" [ref=e416]:
+                - link "Xul Xul" [ref=e417] [cursor=pointer]:
+                  - /url: /Global/Talents/Xul?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Xul" [ref=e420]
+                  - generic [ref=e421]: Xul
+              - cell "54.35" [ref=e422]
+              - cell "±10.18" [ref=e423]
+              - cell "+0.86" [ref=e424]
+              - cell "8.64" [ref=e425]
+              - cell "7.43" [ref=e426]
+              - cell "1.21" [ref=e427]
+              - cell "33" [ref=e428]
+              - cell "92" [ref=e429]
+              - cell "View Talent Builds" [ref=e430]:
+                - button "View Talent Builds" [ref=e431] [cursor=pointer]
+            - row "Ragnaros Ragnaros 54.21 ±9.44 +6.48 11.86 8.64 3.23 38 107 View Talent Builds" [ref=e432]:
+              - cell "Ragnaros Ragnaros" [ref=e433]:
+                - link "Ragnaros Ragnaros" [ref=e434] [cursor=pointer]:
+                  - /url: /Global/Talents/Ragnaros?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Ragnaros" [ref=e437]
+                  - generic [ref=e438]: Ragnaros
+              - cell "54.21" [ref=e439]
+              - cell "±9.44" [ref=e440]
+              - cell "+6.48" [ref=e441]
+              - cell "11.86" [ref=e442]
+              - cell "8.64" [ref=e443]
+              - cell "3.23" [ref=e444]
+              - cell "38" [ref=e445]
+              - cell "107" [ref=e446]
+              - cell "View Talent Builds" [ref=e447]:
+                - button "View Talent Builds" [ref=e448] [cursor=pointer]
+            - row "Tyrael Tyrael 54.14 ±7.26 -5.70 18.56 14.61 3.95 63 181 View Talent Builds" [ref=e449]:
+              - cell "Tyrael Tyrael" [ref=e450]:
+                - link "Tyrael Tyrael" [ref=e451] [cursor=pointer]:
+                  - /url: /Global/Talents/Tyrael?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Tyrael" [ref=e454]
+                  - generic [ref=e455]: Tyrael
+              - cell "54.14" [ref=e456]
+              - cell "±7.26" [ref=e457]
+              - cell "-5.70" [ref=e458]
+              - cell "18.56" [ref=e459]
+              - cell "14.61" [ref=e460]
+              - cell "3.95" [ref=e461]
+              - cell "63" [ref=e462]
+              - cell "181" [ref=e463]
+              - cell "View Talent Builds" [ref=e464]:
+                - button "View Talent Builds" [ref=e465] [cursor=pointer]
+            - row "Tracer Tracer 54.10 ±12.51 -12.57 6.21 4.92 1.29 20 61 View Talent Builds" [ref=e466]:
+              - cell "Tracer Tracer" [ref=e467]:
+                - link "Tracer Tracer" [ref=e468] [cursor=pointer]:
+                  - /url: /Global/Talents/Tracer?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Tracer" [ref=e471]
+                  - generic [ref=e472]: Tracer
+              - cell "54.10" [ref=e473]
+              - cell "±12.51" [ref=e474]
+              - cell "-12.57" [ref=e475]
+              - cell "6.21" [ref=e476]
+              - cell "4.92" [ref=e477]
+              - cell "1.29" [ref=e478]
+              - cell "20" [ref=e479]
+              - cell "61" [ref=e480]
+              - cell "View Talent Builds" [ref=e481]:
+                - button "View Talent Builds" [ref=e482] [cursor=pointer]
+            - row "D.Va D.Va 53.62 ±11.77 -3.52 6.21 5.57 0.65 20 69 View Talent Builds" [ref=e483]:
+              - cell "D.Va D.Va" [ref=e484]:
+                - link "D.Va D.Va" [ref=e485] [cursor=pointer]:
+                  - /url: /Global/Talents/D.Va?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "D.Va" [ref=e488]
+                  - generic [ref=e489]: D.Va
+              - cell "53.62" [ref=e490]
+              - cell "±11.77" [ref=e491]
+              - cell "-3.52" [ref=e492]
+              - cell "6.21" [ref=e493]
+              - cell "5.57" [ref=e494]
+              - cell "0.65" [ref=e495]
+              - cell "20" [ref=e496]
+              - cell "69" [ref=e497]
+              - cell "View Talent Builds" [ref=e498]:
+                - button "View Talent Builds" [ref=e499] [cursor=pointer]
+            - row "Zeratul Zeratul 53.23 ±12.42 +3.23 6.94 5.00 1.94 16 62 View Talent Builds" [ref=e500]:
+              - cell "Zeratul Zeratul" [ref=e501]:
+                - link "Zeratul Zeratul" [ref=e502] [cursor=pointer]:
+                  - /url: /Global/Talents/Zeratul?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Zeratul" [ref=e505]
+                  - generic [ref=e506]: Zeratul
+              - cell "53.23" [ref=e507]
+              - cell "±12.42" [ref=e508]
+              - cell "+3.23" [ref=e509]
+              - cell "6.94" [ref=e510]
+              - cell "5.00" [ref=e511]
+              - cell "1.94" [ref=e512]
+              - cell "16" [ref=e513]
+              - cell "62" [ref=e514]
+              - cell "View Talent Builds" [ref=e515]:
+                - button "View Talent Builds" [ref=e516] [cursor=pointer]
+            - row "Probius Probius 52.94 ±23.73 -32.77 1.45 1.37 0.08 4 17 View Talent Builds" [ref=e517]:
+              - cell "Probius Probius" [ref=e518]:
+                - link "Probius Probius" [ref=e519] [cursor=pointer]:
+                  - /url: /Global/Talents/Probius?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Probius" [ref=e522]
+                  - generic [ref=e523]: Probius
+              - cell "52.94" [ref=e524]
+              - cell "±23.73" [ref=e525]
+              - cell "-32.77" [ref=e526]
+              - cell "1.45" [ref=e527]
+              - cell "1.37" [ref=e528]
+              - cell "0.08" [ref=e529]
+              - cell "4" [ref=e530]
+              - cell "17" [ref=e531]
+              - cell "View Talent Builds" [ref=e532]:
+                - button "View Talent Builds" [ref=e533] [cursor=pointer]
+            - row "Samuro Samuro 52.94 ±11.86 +12.03 7.67 5.49 2.18 17 68 View Talent Builds" [ref=e534]:
+              - cell "Samuro Samuro" [ref=e535]:
+                - link "Samuro Samuro" [ref=e536] [cursor=pointer]:
+                  - /url: /Global/Talents/Samuro?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Samuro" [ref=e539]
+                  - generic [ref=e540]: Samuro
+              - cell "52.94" [ref=e541]
+              - cell "±11.86" [ref=e542]
+              - cell "+12.03" [ref=e543]
+              - cell "7.67" [ref=e544]
+              - cell "5.49" [ref=e545]
+              - cell "2.18" [ref=e546]
+              - cell "17" [ref=e547]
+              - cell "68" [ref=e548]
+              - cell "View Talent Builds" [ref=e549]:
+                - button "View Talent Builds" [ref=e550] [cursor=pointer]
+            - row "Arthas Arthas 52.69 ±7.57 +0.84 16.63 13.48 3.15 38 167 View Talent Builds" [ref=e551]:
+              - cell "Arthas Arthas" [ref=e552]:
+                - link "Arthas Arthas" [ref=e553] [cursor=pointer]:
+                  - /url: /Global/Talents/Arthas?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Arthas" [ref=e556]
+                  - generic [ref=e557]: Arthas
+              - cell "52.69" [ref=e558]
+              - cell "±7.57" [ref=e559]
+              - cell "+0.84" [ref=e560]
+              - cell "16.63" [ref=e561]
+              - cell "13.48" [ref=e562]
+              - cell "3.15" [ref=e563]
+              - cell "38" [ref=e564]
+              - cell "167" [ref=e565]
+              - cell "View Talent Builds" [ref=e566]:
+                - button "View Talent Builds" [ref=e567] [cursor=pointer]
+            - row "Blaze Blaze 52.42 ±8.79 +4.96 11.30 10.01 1.29 25 124 View Talent Builds" [ref=e568]:
+              - cell "Blaze Blaze" [ref=e569]:
+                - link "Blaze Blaze" [ref=e570] [cursor=pointer]:
+                  - /url: /Global/Talents/Blaze?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Blaze" [ref=e573]
+                  - generic [ref=e574]: Blaze
+              - cell "52.42" [ref=e575]
+              - cell "±8.79" [ref=e576]
+              - cell "+4.96" [ref=e577]
+              - cell "11.30" [ref=e578]
+              - cell "10.01" [ref=e579]
+              - cell "1.29" [ref=e580]
+              - cell "25" [ref=e581]
+              - cell "124" [ref=e582]
+              - cell "View Talent Builds" [ref=e583]:
+                - button "View Talent Builds" [ref=e584] [cursor=pointer]
+            - row "Garrosh Garrosh 52.38 ±8.07 +3.81 58.92 11.86 47.05 53 147 View Talent Builds" [ref=e585]:
+              - cell "Garrosh Garrosh" [ref=e586]:
+                - link "Garrosh Garrosh" [ref=e587] [cursor=pointer]:
+                  - /url: /Global/Talents/Garrosh?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Garrosh" [ref=e590]
+                  - generic [ref=e591]: Garrosh
+              - cell "52.38" [ref=e592]
+              - cell "±8.07" [ref=e593]
+              - cell "+3.81" [ref=e594]
+              - cell "58.92" [ref=e595]
+              - cell "11.86" [ref=e596]
+              - cell "47.05" [ref=e597]
+              - cell "53" [ref=e598]
+              - cell "147" [ref=e599]
+              - cell "View Talent Builds" [ref=e600]:
+                - button "View Talent Builds" [ref=e601] [cursor=pointer]
+            - row "Fenix Fenix 52.27 ±14.76 -1.30 3.55 3.55 8 44 View Talent Builds" [ref=e602]:
+              - cell "Fenix Fenix" [ref=e603]:
+                - link "Fenix Fenix" [ref=e604] [cursor=pointer]:
+                  - /url: /Global/Talents/Fenix?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Fenix" [ref=e607]
+                  - generic [ref=e608]: Fenix
+              - cell "52.27" [ref=e609]
+              - cell "±14.76" [ref=e610]
+              - cell "-1.30" [ref=e611]
+              - cell "3.55" [ref=e612]
+              - cell "3.55" [ref=e613]
+              - cell [ref=e614]
+              - cell "8" [ref=e615]
+              - cell "44" [ref=e616]
+              - cell "View Talent Builds" [ref=e617]:
+                - button "View Talent Builds" [ref=e618] [cursor=pointer]
+            - row "Uther Uther 52.27 ±10.44 -5.87 8.23 7.10 1.13 16 88 View Talent Builds" [ref=e619]:
+              - cell "Uther Uther" [ref=e620]:
+                - link "Uther Uther" [ref=e621] [cursor=pointer]:
+                  - /url: /Global/Talents/Uther?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Uther" [ref=e624]
+                  - generic [ref=e625]: Uther
+              - cell "52.27" [ref=e626]
+              - cell "±10.44" [ref=e627]
+              - cell "-5.87" [ref=e628]
+              - cell "8.23" [ref=e629]
+              - cell "7.10" [ref=e630]
+              - cell "1.13" [ref=e631]
+              - cell "16" [ref=e632]
+              - cell "88" [ref=e633]
+              - cell "View Talent Builds" [ref=e634]:
+                - button "View Talent Builds" [ref=e635] [cursor=pointer]
+            - row "Li Li Li Li 52.08 ±7.07 +13.85 20.10 15.50 4.60 34 192 View Talent Builds" [ref=e636]:
+              - cell "Li Li Li Li" [ref=e637]:
+                - link "Li Li Li Li" [ref=e638] [cursor=pointer]:
+                  - /url: /Global/Talents/Li Li?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Li Li" [ref=e641]
+                  - generic [ref=e642]: Li Li
+              - cell "52.08" [ref=e643]
+              - cell "±7.07" [ref=e644]
+              - cell "+13.85" [ref=e645]
+              - cell "20.10" [ref=e646]
+              - cell "15.50" [ref=e647]
+              - cell "4.60" [ref=e648]
+              - cell "34" [ref=e649]
+              - cell "192" [ref=e650]
+              - cell "View Talent Builds" [ref=e651]:
+                - button "View Talent Builds" [ref=e652] [cursor=pointer]
+            - row "Tyrande Tyrande 52.07 ±6.29 -2.06 21.31 19.53 1.78 41 242 View Talent Builds" [ref=e653]:
+              - cell "Tyrande Tyrande" [ref=e654]:
+                - link "Tyrande Tyrande" [ref=e655] [cursor=pointer]:
+                  - /url: /Global/Talents/Tyrande?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Tyrande" [ref=e658]
+                  - generic [ref=e659]: Tyrande
+              - cell "52.07" [ref=e660]
+              - cell "±6.29" [ref=e661]
+              - cell "-2.06" [ref=e662]
+              - cell "21.31" [ref=e663]
+              - cell "19.53" [ref=e664]
+              - cell "1.78" [ref=e665]
+              - cell "41" [ref=e666]
+              - cell "242" [ref=e667]
+              - cell "View Talent Builds" [ref=e668]:
+                - button "View Talent Builds" [ref=e669] [cursor=pointer]
+            - row "Sgt. Hammer Sgt. Hammer 52.00 ±13.85 -14.67 6.54 4.04 2.50 8 50 View Talent Builds" [ref=e670]:
+              - cell "Sgt. Hammer Sgt. Hammer" [ref=e671]:
+                - link "Sgt. Hammer Sgt. Hammer" [ref=e672] [cursor=pointer]:
+                  - /url: /Global/Talents/Sgt. Hammer?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Sgt. Hammer" [ref=e675]
+                  - generic [ref=e676]: Sgt. Hammer
+              - cell "52.00" [ref=e677]
+              - cell "±13.85" [ref=e678]
+              - cell "-14.67" [ref=e679]
+              - cell "6.54" [ref=e680]
+              - cell "4.04" [ref=e681]
+              - cell "2.50" [ref=e682]
+              - cell "8" [ref=e683]
+              - cell "50" [ref=e684]
+              - cell "View Talent Builds" [ref=e685]:
+                - button "View Talent Builds" [ref=e686] [cursor=pointer]
+            - row "Auriel Auriel 51.96 ±6.86 -1.61 22.68 16.46 6.21 34 204 View Talent Builds" [ref=e687]:
+              - cell "Auriel Auriel" [ref=e688]:
+                - link "Auriel Auriel" [ref=e689] [cursor=pointer]:
+                  - /url: /Global/Talents/Auriel?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Auriel" [ref=e692]
+                  - generic [ref=e693]: Auriel
+              - cell "51.96" [ref=e694]
+              - cell "±6.86" [ref=e695]
+              - cell "-1.61" [ref=e696]
+              - cell "22.68" [ref=e697]
+              - cell "16.46" [ref=e698]
+              - cell "6.21" [ref=e699]
+              - cell "34" [ref=e700]
+              - cell "204" [ref=e701]
+              - cell "View Talent Builds" [ref=e702]:
+                - button "View Talent Builds" [ref=e703] [cursor=pointer]
+            - row "Yrel Yrel 51.92 ±13.58 +28.85 4.44 4.20 0.24 8 52 View Talent Builds" [ref=e704]:
+              - cell "Yrel Yrel" [ref=e705]:
+                - link "Yrel Yrel" [ref=e706] [cursor=pointer]:
+                  - /url: /Global/Talents/Yrel?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Yrel" [ref=e709]
+                  - generic [ref=e710]: Yrel
+              - cell "51.92" [ref=e711]
+              - cell "±13.58" [ref=e712]
+              - cell "+28.85" [ref=e713]
+              - cell "4.44" [ref=e714]
+              - cell "4.20" [ref=e715]
+              - cell "0.24" [ref=e716]
+              - cell "8" [ref=e717]
+              - cell "52" [ref=e718]
+              - cell "View Talent Builds" [ref=e719]:
+                - button "View Talent Builds" [ref=e720] [cursor=pointer]
+            - row "Valla Valla 51.77 ±5.11 +3.41 51.01 29.62 21.39 67 367 View Talent Builds" [ref=e721]:
+              - cell "Valla Valla" [ref=e722]:
+                - link "Valla Valla" [ref=e723] [cursor=pointer]:
+                  - /url: /Global/Talents/Valla?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Valla" [ref=e726]
+                  - generic [ref=e727]: Valla
+              - cell "51.77" [ref=e728]
+              - cell "±5.11" [ref=e729]
+              - cell "+3.41" [ref=e730]
+              - cell "51.01" [ref=e731]
+              - cell "29.62" [ref=e732]
+              - cell "21.39" [ref=e733]
+              - cell "67" [ref=e734]
+              - cell "367" [ref=e735]
+              - cell "View Talent Builds" [ref=e736]:
+                - button "View Talent Builds" [ref=e737] [cursor=pointer]
+            - row "Zarya Zarya 51.43 ±16.56 +5.97 3.31 2.82 0.48 4 35 View Talent Builds" [ref=e738]:
+              - cell "Zarya Zarya" [ref=e739]:
+                - link "Zarya Zarya" [ref=e740] [cursor=pointer]:
+                  - /url: /Global/Talents/Zarya?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Zarya" [ref=e743]
+                  - generic [ref=e744]: Zarya
+              - cell "51.43" [ref=e745]
+              - cell "±16.56" [ref=e746]
+              - cell "+5.97" [ref=e747]
+              - cell "3.31" [ref=e748]
+              - cell "2.82" [ref=e749]
+              - cell "0.48" [ref=e750]
+              - cell "4" [ref=e751]
+              - cell "35" [ref=e752]
+              - cell "View Talent Builds" [ref=e753]:
+                - button "View Talent Builds" [ref=e754] [cursor=pointer]
+            - row "Imperius Imperius 51.33 ±8.00 +3.12 13.16 12.11 1.05 16 150 View Talent Builds" [ref=e755]:
+              - cell "Imperius Imperius" [ref=e756]:
+                - link "Imperius Imperius" [ref=e757] [cursor=pointer]:
+                  - /url: /Global/Talents/Imperius?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Imperius" [ref=e760]
+                  - generic [ref=e761]: Imperius
+              - cell "51.33" [ref=e762]
+              - cell "±8.00" [ref=e763]
+              - cell "+3.12" [ref=e764]
+              - cell "13.16" [ref=e765]
+              - cell "12.11" [ref=e766]
+              - cell "1.05" [ref=e767]
+              - cell "16" [ref=e768]
+              - cell "150" [ref=e769]
+              - cell "View Talent Builds" [ref=e770]:
+                - button "View Talent Builds" [ref=e771] [cursor=pointer]
+            - row "Deathwing Deathwing 51.32 ±6.49 +0.85 52.70 18.40 34.30 37 228 View Talent Builds" [ref=e772]:
+              - cell "Deathwing Deathwing" [ref=e773]:
+                - link "Deathwing Deathwing" [ref=e774] [cursor=pointer]:
+                  - /url: /Global/Talents/Deathwing?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Deathwing" [ref=e777]
+                  - generic [ref=e778]: Deathwing
+              - cell "51.32" [ref=e779]
+              - cell "±6.49" [ref=e780]
+              - cell "+0.85" [ref=e781]
+              - cell "52.70" [ref=e782]
+              - cell "18.40" [ref=e783]
+              - cell "34.30" [ref=e784]
+              - cell "37" [ref=e785]
+              - cell "228" [ref=e786]
+              - cell "View Talent Builds" [ref=e787]:
+                - button "View Talent Builds" [ref=e788] [cursor=pointer]
+            - row "Rexxar Rexxar 51.22 ±15.30 +4.55 3.95 3.31 0.65 4 41 View Talent Builds" [ref=e789]:
+              - cell "Rexxar Rexxar" [ref=e790]:
+                - link "Rexxar Rexxar" [ref=e791] [cursor=pointer]:
+                  - /url: /Global/Talents/Rexxar?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Rexxar" [ref=e794]
+                  - generic [ref=e795]: Rexxar
+              - cell "51.22" [ref=e796]
+              - cell "±15.30" [ref=e797]
+              - cell "+4.55" [ref=e798]
+              - cell "3.95" [ref=e799]
+              - cell "3.31" [ref=e800]
+              - cell "0.65" [ref=e801]
+              - cell "4" [ref=e802]
+              - cell "41" [ref=e803]
+              - cell "View Talent Builds" [ref=e804]:
+                - button "View Talent Builds" [ref=e805] [cursor=pointer]
+            - row "Kael'thas Kael'thas 50.92 ±6.64 +6.24 27.20 17.59 9.60 18 218 View Talent Builds" [ref=e806]:
+              - cell "Kael'thas Kael'thas" [ref=e807]:
+                - link "Kael'thas Kael'thas" [ref=e808] [cursor=pointer]:
+                  - /url: /Global/Talents/Kael'thas?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Kael'thas" [ref=e811]
+                  - generic [ref=e812]: Kael'thas
+              - cell "50.92" [ref=e813]
+              - cell "±6.64" [ref=e814]
+              - cell "+6.24" [ref=e815]
+              - cell "27.20" [ref=e816]
+              - cell "17.59" [ref=e817]
+              - cell "9.60" [ref=e818]
+              - cell "18" [ref=e819]
+              - cell "218" [ref=e820]
+              - cell "View Talent Builds" [ref=e821]:
+                - button "View Talent Builds" [ref=e822] [cursor=pointer]
+            - row "Rehgar Rehgar 50.75 ±6.01 +0.75 26.55 21.47 5.08 17 266 View Talent Builds" [ref=e823]:
+              - cell "Rehgar Rehgar" [ref=e824]:
+                - link "Rehgar Rehgar" [ref=e825] [cursor=pointer]:
+                  - /url: /Global/Talents/Rehgar?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Rehgar" [ref=e828]
+                  - generic [ref=e829]: Rehgar
+              - cell "50.75" [ref=e830]
+              - cell "±6.01" [ref=e831]
+              - cell "+0.75" [ref=e832]
+              - cell "26.55" [ref=e833]
+              - cell "21.47" [ref=e834]
+              - cell "5.08" [ref=e835]
+              - cell "17" [ref=e836]
+              - cell "266" [ref=e837]
+              - cell "View Talent Builds" [ref=e838]:
+                - button "View Talent Builds" [ref=e839] [cursor=pointer]
+            - row "Zagara Zagara 50.57 ±10.51 -10.03 9.28 7.02 2.26 4 87 View Talent Builds" [ref=e840]:
+              - cell "Zagara Zagara" [ref=e841]:
+                - link "Zagara Zagara" [ref=e842] [cursor=pointer]:
+                  - /url: /Global/Talents/Zagara?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Zagara" [ref=e845]
+                  - generic [ref=e846]: Zagara
+              - cell "50.57" [ref=e847]
+              - cell "±10.51" [ref=e848]
+              - cell "-10.03" [ref=e849]
+              - cell "9.28" [ref=e850]
+              - cell "7.02" [ref=e851]
+              - cell "2.26" [ref=e852]
+              - cell "4" [ref=e853]
+              - cell "87" [ref=e854]
+              - cell "View Talent Builds" [ref=e855]:
+                - button "View Talent Builds" [ref=e856] [cursor=pointer]
+            - row "Artanis Artanis 50.56 ±7.30 -3.99 18.97 14.53 4.44 8 180 View Talent Builds" [ref=e857]:
+              - cell "Artanis Artanis" [ref=e858]:
+                - link "Artanis Artanis" [ref=e859] [cursor=pointer]:
+                  - /url: /Global/Talents/Artanis?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Artanis" [ref=e862]
+                  - generic [ref=e863]: Artanis
+              - cell "50.56" [ref=e864]
+              - cell "±7.30" [ref=e865]
+              - cell "-3.99" [ref=e866]
+              - cell "18.97" [ref=e867]
+              - cell "14.53" [ref=e868]
+              - cell "4.44" [ref=e869]
+              - cell "8" [ref=e870]
+              - cell "180" [ref=e871]
+              - cell "View Talent Builds" [ref=e872]:
+                - button "View Talent Builds" [ref=e873] [cursor=pointer]
+            - row "Nazeebo Nazeebo 50.45 ±5.34 +1.85 36.97 27.20 9.77 13 337 View Talent Builds" [ref=e874]:
+              - cell "Nazeebo Nazeebo" [ref=e875]:
+                - link "Nazeebo Nazeebo" [ref=e876] [cursor=pointer]:
+                  - /url: /Global/Talents/Nazeebo?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Nazeebo" [ref=e879]
+                  - generic [ref=e880]: Nazeebo
+              - cell "50.45" [ref=e881]
+              - cell "±5.34" [ref=e882]
+              - cell "+1.85" [ref=e883]
+              - cell "36.97" [ref=e884]
+              - cell "27.20" [ref=e885]
+              - cell "9.77" [ref=e886]
+              - cell "13" [ref=e887]
+              - cell "337" [ref=e888]
+              - cell "View Talent Builds" [ref=e889]:
+                - button "View Talent Builds" [ref=e890] [cursor=pointer]
+            - row "Sonya Sonya 50.41 ±8.91 +7.56 10.65 9.77 0.89 4 121 View Talent Builds" [ref=e891]:
+              - cell "Sonya Sonya" [ref=e892]:
+                - link "Sonya Sonya" [ref=e893] [cursor=pointer]:
+                  - /url: /Global/Talents/Sonya?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Sonya" [ref=e896]
+                  - generic [ref=e897]: Sonya
+              - cell "50.41" [ref=e898]
+              - cell "±8.91" [ref=e899]
+              - cell "+7.56" [ref=e900]
+              - cell "10.65" [ref=e901]
+              - cell "9.77" [ref=e902]
+              - cell "0.89" [ref=e903]
+              - cell "4" [ref=e904]
+              - cell "121" [ref=e905]
+              - cell "View Talent Builds" [ref=e906]:
+                - button "View Talent Builds" [ref=e907] [cursor=pointer]
+            - row "Hanzo Hanzo 50.30 ±7.58 +3.96 16.30 13.48 2.82 4 167 View Talent Builds" [ref=e908]:
+              - cell "Hanzo Hanzo" [ref=e909]:
+                - link "Hanzo Hanzo" [ref=e910] [cursor=pointer]:
+                  - /url: /Global/Talents/Hanzo?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Hanzo" [ref=e913]
+                  - generic [ref=e914]: Hanzo
+              - cell "50.30" [ref=e915]
+              - cell "±7.58" [ref=e916]
+              - cell "+3.96" [ref=e917]
+              - cell "16.30" [ref=e918]
+              - cell "13.48" [ref=e919]
+              - cell "2.82" [ref=e920]
+              - cell "4" [ref=e921]
+              - cell "167" [ref=e922]
+              - cell "View Talent Builds" [ref=e923]:
+                - button "View Talent Builds" [ref=e924] [cursor=pointer]
+            - row "Leoric Leoric 50.22 ±6.48 -6.22 22.60 18.48 4.12 4 229 View Talent Builds" [ref=e925]:
+              - cell "Leoric Leoric" [ref=e926]:
+                - link "Leoric Leoric" [ref=e927] [cursor=pointer]:
+                  - /url: /Global/Talents/Leoric?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Leoric" [ref=e930]
+                  - generic [ref=e931]: Leoric
+              - cell "50.22" [ref=e932]
+              - cell "±6.48" [ref=e933]
+              - cell "-6.22" [ref=e934]
+              - cell "22.60" [ref=e935]
+              - cell "18.48" [ref=e936]
+              - cell "4.12" [ref=e937]
+              - cell "4" [ref=e938]
+              - cell "229" [ref=e939]
+              - cell "View Talent Builds" [ref=e940]:
+                - button "View Talent Builds" [ref=e941] [cursor=pointer]
+            - row "Chen Chen 50.00 ±12.65 -5.00 6.05 4.84 1.21 60 View Talent Builds" [ref=e942]:
+              - cell "Chen Chen" [ref=e943]:
+                - link "Chen Chen" [ref=e944] [cursor=pointer]:
+                  - /url: /Global/Talents/Chen?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Chen" [ref=e947]
+                  - generic [ref=e948]: Chen
+              - cell "50.00" [ref=e949]
+              - cell "±12.65" [ref=e950]
+              - cell "-5.00" [ref=e951]
+              - cell "6.05" [ref=e952]
+              - cell "4.84" [ref=e953]
+              - cell "1.21" [ref=e954]
+              - cell [ref=e955]
+              - cell "60" [ref=e956]
+              - cell "View Talent Builds" [ref=e957]:
+                - button "View Talent Builds" [ref=e958] [cursor=pointer]
+            - row "Tassadar Tassadar 50.00 ±6.96 +1.25 16.71 15.98 0.73 198 View Talent Builds" [ref=e959]:
+              - cell "Tassadar Tassadar" [ref=e960]:
+                - link "Tassadar Tassadar" [ref=e961] [cursor=pointer]:
+                  - /url: /Global/Talents/Tassadar?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Tassadar" [ref=e964]
+                  - generic [ref=e965]: Tassadar
+              - cell "50.00" [ref=e966]
+              - cell "±6.96" [ref=e967]
+              - cell "+1.25" [ref=e968]
+              - cell "16.71" [ref=e969]
+              - cell "15.98" [ref=e970]
+              - cell "0.73" [ref=e971]
+              - cell [ref=e972]
+              - cell "198" [ref=e973]
+              - cell "View Talent Builds" [ref=e974]:
+                - button "View Talent Builds" [ref=e975] [cursor=pointer]
+            - row "Brightwing Brightwing 49.63 ±5.99 +6.23 60.94 21.63 39.31 -13 268 View Talent Builds" [ref=e976]:
+              - cell "Brightwing Brightwing" [ref=e977]:
+                - link "Brightwing Brightwing" [ref=e978] [cursor=pointer]:
+                  - /url: /Global/Talents/Brightwing?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Brightwing" [ref=e981]
+                  - generic [ref=e982]: Brightwing
+              - cell "49.63" [ref=e983]
+              - cell "±5.99" [ref=e984]
+              - cell "+6.23" [ref=e985]
+              - cell "60.94" [ref=e986]
+              - cell "21.63" [ref=e987]
+              - cell "39.31" [ref=e988]
+              - cell "-13" [ref=e989]
+              - cell "268" [ref=e990]
+              - cell "View Talent Builds" [ref=e991]:
+                - button "View Talent Builds" [ref=e992] [cursor=pointer]
+            - row "Muradin Muradin 49.27 ±4.83 -2.29 42.05 33.25 8.80 -27 412 View Talent Builds" [ref=e993]:
+              - cell "Muradin Muradin" [ref=e994]:
+                - link "Muradin Muradin" [ref=e995] [cursor=pointer]:
+                  - /url: /Global/Talents/Muradin?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Muradin" [ref=e998]
+                  - generic [ref=e999]: Muradin
+              - cell "49.27" [ref=e1000]
+              - cell "±4.83" [ref=e1001]
+              - cell "-2.29" [ref=e1002]
+              - cell "42.05" [ref=e1003]
+              - cell "33.25" [ref=e1004]
+              - cell "8.80" [ref=e1005]
+              - cell "-27" [ref=e1006]
+              - cell "412" [ref=e1007]
+              - cell "View Talent Builds" [ref=e1008]:
+                - button "View Talent Builds" [ref=e1009] [cursor=pointer]
+            - row "Thrall Thrall 49.26 ±5.32 -6.90 42.13 27.36 14.77 -24 339 View Talent Builds" [ref=e1010]:
+              - cell "Thrall Thrall" [ref=e1011]:
+                - link "Thrall Thrall" [ref=e1012] [cursor=pointer]:
+                  - /url: /Global/Talents/Thrall?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Thrall" [ref=e1015]
+                  - generic [ref=e1016]: Thrall
+              - cell "49.26" [ref=e1017]
+              - cell "±5.32" [ref=e1018]
+              - cell "-6.90" [ref=e1019]
+              - cell "42.13" [ref=e1020]
+              - cell "27.36" [ref=e1021]
+              - cell "14.77" [ref=e1022]
+              - cell "-24" [ref=e1023]
+              - cell "339" [ref=e1024]
+              - cell "View Talent Builds" [ref=e1025]:
+                - button "View Talent Builds" [ref=e1026] [cursor=pointer]
+            - row "Jaina Jaina 49.23 ±7.02 -1.44 16.95 15.74 1.21 -12 195 View Talent Builds" [ref=e1027]:
+              - cell "Jaina Jaina" [ref=e1028]:
+                - link "Jaina Jaina" [ref=e1029] [cursor=pointer]:
+                  - /url: /Global/Talents/Jaina?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Jaina" [ref=e1032]
+                  - generic [ref=e1033]: Jaina
+              - cell "49.23" [ref=e1034]
+              - cell "±7.02" [ref=e1035]
+              - cell "-1.44" [ref=e1036]
+              - cell "16.95" [ref=e1037]
+              - cell "15.74" [ref=e1038]
+              - cell "1.21" [ref=e1039]
+              - cell "-12" [ref=e1040]
+              - cell "195" [ref=e1041]
+              - cell "View Talent Builds" [ref=e1042]:
+                - button "View Talent Builds" [ref=e1043] [cursor=pointer]
+            - row "Alarak Alarak 49.17 ±8.94 -8.61 11.95 9.69 2.26 -8 120 View Talent Builds" [ref=e1044]:
+              - cell "Alarak Alarak" [ref=e1045]:
+                - link "Alarak Alarak" [ref=e1046] [cursor=pointer]:
+                  - /url: /Global/Talents/Alarak?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Alarak" [ref=e1049]
+                  - generic [ref=e1050]: Alarak
+              - cell "49.17" [ref=e1051]
+              - cell "±8.94" [ref=e1052]
+              - cell "-8.61" [ref=e1053]
+              - cell "11.95" [ref=e1054]
+              - cell "9.69" [ref=e1055]
+              - cell "2.26" [ref=e1056]
+              - cell "-8" [ref=e1057]
+              - cell "120" [ref=e1058]
+              - cell "View Talent Builds" [ref=e1059]:
+                - button "View Talent Builds" [ref=e1060] [cursor=pointer]
+            - row "Falstad Falstad 49.06 ±6.02 -0.19 77.72 21.39 56.34 -46 265 View Talent Builds" [ref=e1061]:
+              - cell "Falstad Falstad" [ref=e1062]:
+                - link "Falstad Falstad" [ref=e1063] [cursor=pointer]:
+                  - /url: /Global/Talents/Falstad?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Falstad" [ref=e1066]
+                  - generic [ref=e1067]: Falstad
+              - cell "49.06" [ref=e1068]
+              - cell "±6.02" [ref=e1069]
+              - cell "-0.19" [ref=e1070]
+              - cell "77.72" [ref=e1071]
+              - cell "21.39" [ref=e1072]
+              - cell "56.34" [ref=e1073]
+              - cell "-46" [ref=e1074]
+              - cell "265" [ref=e1075]
+              - cell "View Talent Builds" [ref=e1076]:
+                - button "View Talent Builds" [ref=e1077] [cursor=pointer]
+            - row "Zul'jin Zul'jin 49.06 ±9.52 +10.96 10.90 8.56 2.34 -8 106 View Talent Builds" [ref=e1078]:
+              - cell "Zul'jin Zul'jin" [ref=e1079]:
+                - link "Zul'jin Zul'jin" [ref=e1080] [cursor=pointer]:
+                  - /url: /Global/Talents/Zul'jin?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Zul'jin" [ref=e1083]
+                  - generic [ref=e1084]: Zul'jin
+              - cell "49.06" [ref=e1085]
+              - cell "±9.52" [ref=e1086]
+              - cell "+10.96" [ref=e1087]
+              - cell "10.90" [ref=e1088]
+              - cell "8.56" [ref=e1089]
+              - cell "2.34" [ref=e1090]
+              - cell "-8" [ref=e1091]
+              - cell "106" [ref=e1092]
+              - cell "View Talent Builds" [ref=e1093]:
+                - button "View Talent Builds" [ref=e1094] [cursor=pointer]
+            - row "Sylvanas Sylvanas 48.97 ±5.75 +2.59 47.13 23.41 23.73 -32 290 View Talent Builds" [ref=e1095]:
+              - cell "Sylvanas Sylvanas" [ref=e1096]:
+                - link "Sylvanas Sylvanas" [ref=e1097] [cursor=pointer]:
+                  - /url: /Global/Talents/Sylvanas?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Sylvanas" [ref=e1100]
+                  - generic [ref=e1101]: Sylvanas
+              - cell "48.97" [ref=e1102]
+              - cell "±5.75" [ref=e1103]
+              - cell "+2.59" [ref=e1104]
+              - cell "47.13" [ref=e1105]
+              - cell "23.41" [ref=e1106]
+              - cell "23.73" [ref=e1107]
+              - cell "-32" [ref=e1108]
+              - cell "290" [ref=e1109]
+              - cell "View Talent Builds" [ref=e1110]:
+                - button "View Talent Builds" [ref=e1111] [cursor=pointer]
+            - row "Medivh Medivh 48.84 ±14.94 -3.54 5.08 3.47 1.61 -4 43 View Talent Builds" [ref=e1112]:
+              - cell "Medivh Medivh" [ref=e1113]:
+                - link "Medivh Medivh" [ref=e1114] [cursor=pointer]:
+                  - /url: /Global/Talents/Medivh?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Medivh" [ref=e1117]
+                  - generic [ref=e1118]: Medivh
+              - cell "48.84" [ref=e1119]
+              - cell "±14.94" [ref=e1120]
+              - cell "-3.54" [ref=e1121]
+              - cell "5.08" [ref=e1122]
+              - cell "3.47" [ref=e1123]
+              - cell "1.61" [ref=e1124]
+              - cell "-4" [ref=e1125]
+              - cell "43" [ref=e1126]
+              - cell "View Talent Builds" [ref=e1127]:
+                - button "View Talent Builds" [ref=e1128] [cursor=pointer]
+            - row "Malfurion Malfurion 48.76 ±8.91 +4.90 11.86 9.77 2.10 -12 121 View Talent Builds" [ref=e1129]:
+              - cell "Malfurion Malfurion" [ref=e1130]:
+                - link "Malfurion Malfurion" [ref=e1131] [cursor=pointer]:
+                  - /url: /Global/Talents/Malfurion?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Malfurion" [ref=e1134]
+                  - generic [ref=e1135]: Malfurion
+              - cell "48.76" [ref=e1136]
+              - cell "±8.91" [ref=e1137]
+              - cell "+4.90" [ref=e1138]
+              - cell "11.86" [ref=e1139]
+              - cell "9.77" [ref=e1140]
+              - cell "2.10" [ref=e1141]
+              - cell "-12" [ref=e1142]
+              - cell "121" [ref=e1143]
+              - cell "View Talent Builds" [ref=e1144]:
+                - button "View Talent Builds" [ref=e1145] [cursor=pointer]
+            - row "E.T.C. E.T.C. 48.42 ±7.11 +5.09 20.58 15.33 5.25 -26 190 View Talent Builds" [ref=e1146]:
+              - cell "E.T.C. E.T.C." [ref=e1147]:
+                - link "E.T.C. E.T.C." [ref=e1148] [cursor=pointer]:
+                  - /url: /Global/Talents/E.T.C.?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "E.T.C." [ref=e1151]
+                  - generic [ref=e1152]: E.T.C.
+              - cell "48.42" [ref=e1153]
+              - cell "±7.11" [ref=e1154]
+              - cell "+5.09" [ref=e1155]
+              - cell "20.58" [ref=e1156]
+              - cell "15.33" [ref=e1157]
+              - cell "5.25" [ref=e1158]
+              - cell "-26" [ref=e1159]
+              - cell "190" [ref=e1160]
+              - cell "View Talent Builds" [ref=e1161]:
+                - button "View Talent Builds" [ref=e1162] [cursor=pointer]
+            - row "Mal'Ganis Mal'Ganis 48.33 ±12.64 -1.67 6.78 4.84 1.94 -8 60 View Talent Builds" [ref=e1163]:
+              - cell "Mal'Ganis Mal'Ganis" [ref=e1164]:
+                - link "Mal'Ganis Mal'Ganis" [ref=e1165] [cursor=pointer]:
+                  - /url: /Global/Talents/Mal'Ganis?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Mal'Ganis" [ref=e1168]
+                  - generic [ref=e1169]: Mal'Ganis
+              - cell "48.33" [ref=e1170]
+              - cell "±12.64" [ref=e1171]
+              - cell "-1.67" [ref=e1172]
+              - cell "6.78" [ref=e1173]
+              - cell "4.84" [ref=e1174]
+              - cell "1.94" [ref=e1175]
+              - cell "-8" [ref=e1176]
+              - cell "60" [ref=e1177]
+              - cell "View Talent Builds" [ref=e1178]:
+                - button "View Talent Builds" [ref=e1179] [cursor=pointer]
+            - row "Dehaka Dehaka 48.00 ±9.79 +6.93 24.21 8.07 16.14 -19 100 View Talent Builds" [ref=e1180]:
+              - cell "Dehaka Dehaka" [ref=e1181]:
+                - link "Dehaka Dehaka" [ref=e1182] [cursor=pointer]:
+                  - /url: /Global/Talents/Dehaka?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Dehaka" [ref=e1185]
+                  - generic [ref=e1186]: Dehaka
+              - cell "48.00" [ref=e1187]
+              - cell "±9.79" [ref=e1188]
+              - cell "+6.93" [ref=e1189]
+              - cell "24.21" [ref=e1190]
+              - cell "8.07" [ref=e1191]
+              - cell "16.14" [ref=e1192]
+              - cell "-19" [ref=e1193]
+              - cell "100" [ref=e1194]
+              - cell "View Talent Builds" [ref=e1195]:
+                - button "View Talent Builds" [ref=e1196] [cursor=pointer]
+            - row "Stitches Stitches 47.16 ±6.47 -7.76 31.40 18.48 12.91 -60 229 View Talent Builds" [ref=e1197]:
+              - cell "Stitches Stitches" [ref=e1198]:
+                - link "Stitches Stitches" [ref=e1199] [cursor=pointer]:
+                  - /url: /Global/Talents/Stitches?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Stitches" [ref=e1202]
+                  - generic [ref=e1203]: Stitches
+              - cell "47.16" [ref=e1204]
+              - cell "±6.47" [ref=e1205]
+              - cell "-7.76" [ref=e1206]
+              - cell "31.40" [ref=e1207]
+              - cell "18.48" [ref=e1208]
+              - cell "12.91" [ref=e1209]
+              - cell "-60" [ref=e1210]
+              - cell "229" [ref=e1211]
+              - cell "View Talent Builds" [ref=e1212]:
+                - button "View Talent Builds" [ref=e1213] [cursor=pointer]
+            - row "Li-Ming Li-Ming 47.04 ±5.95 -0.67 30.51 21.79 8.72 -71 270 View Talent Builds" [ref=e1214]:
+              - cell "Li-Ming Li-Ming" [ref=e1215]:
+                - link "Li-Ming Li-Ming" [ref=e1216] [cursor=pointer]:
+                  - /url: /Global/Talents/Li-Ming?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Li-Ming" [ref=e1219]
+                  - generic [ref=e1220]: Li-Ming
+              - cell "47.04" [ref=e1221]
+              - cell "±5.95" [ref=e1222]
+              - cell "-0.67" [ref=e1223]
+              - cell "30.51" [ref=e1224]
+              - cell "21.79" [ref=e1225]
+              - cell "8.72" [ref=e1226]
+              - cell "-71" [ref=e1227]
+              - cell "270" [ref=e1228]
+              - cell "View Talent Builds" [ref=e1229]:
+                - button "View Talent Builds" [ref=e1230] [cursor=pointer]
+            - row "Chromie Chromie 46.53 ±9.73 -4.75 10.82 8.15 2.66 -29 101 View Talent Builds" [ref=e1231]:
+              - cell "Chromie Chromie" [ref=e1232]:
+                - link "Chromie Chromie" [ref=e1233] [cursor=pointer]:
+                  - /url: /Global/Talents/Chromie?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Chromie" [ref=e1236]
+                  - generic [ref=e1237]: Chromie
+              - cell "46.53" [ref=e1238]
+              - cell "±9.73" [ref=e1239]
+              - cell "-4.75" [ref=e1240]
+              - cell "10.82" [ref=e1241]
+              - cell "8.15" [ref=e1242]
+              - cell "2.66" [ref=e1243]
+              - cell "-29" [ref=e1244]
+              - cell "101" [ref=e1245]
+              - cell "View Talent Builds" [ref=e1246]:
+                - button "View Talent Builds" [ref=e1247] [cursor=pointer]
+            - row "Azmodan Azmodan 46.48 ±6.70 +7.59 29.70 17.19 12.51 -69 213 View Talent Builds" [ref=e1248]:
+              - cell "Azmodan Azmodan" [ref=e1249]:
+                - link "Azmodan Azmodan" [ref=e1250] [cursor=pointer]:
+                  - /url: /Global/Talents/Azmodan?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Azmodan" [ref=e1253]
+                  - generic [ref=e1254]: Azmodan
+              - cell "46.48" [ref=e1255]
+              - cell "±6.70" [ref=e1256]
+              - cell "+7.59" [ref=e1257]
+              - cell "29.70" [ref=e1258]
+              - cell "17.19" [ref=e1259]
+              - cell "12.51" [ref=e1260]
+              - cell "-69" [ref=e1261]
+              - cell "213" [ref=e1262]
+              - cell "View Talent Builds" [ref=e1263]:
+                - button "View Talent Builds" [ref=e1264] [cursor=pointer]
+            - row "Deckard Deckard 46.43 ±9.24 -6.51 10.65 9.04 1.61 -33 112 View Talent Builds" [ref=e1265]:
+              - cell "Deckard Deckard" [ref=e1266]:
+                - link "Deckard Deckard" [ref=e1267] [cursor=pointer]:
+                  - /url: /Global/Talents/Deckard?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Deckard" [ref=e1270]
+                  - generic [ref=e1271]: Deckard
+              - cell "46.43" [ref=e1272]
+              - cell "±9.24" [ref=e1273]
+              - cell "-6.51" [ref=e1274]
+              - cell "10.65" [ref=e1275]
+              - cell "9.04" [ref=e1276]
+              - cell "1.61" [ref=e1277]
+              - cell "-33" [ref=e1278]
+              - cell "112" [ref=e1279]
+              - cell "View Talent Builds" [ref=e1280]:
+                - button "View Talent Builds" [ref=e1281] [cursor=pointer]
+            - row "Anub'arak Anub'arak 46.03 ±7.11 +0.15 26.07 15.25 10.82 -68 189 View Talent Builds" [ref=e1282]:
+              - cell "Anub'arak Anub'arak" [ref=e1283]:
+                - link "Anub'arak Anub'arak" [ref=e1284] [cursor=pointer]:
+                  - /url: /Global/Talents/Anub'arak?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Anub'arak" [ref=e1287]
+                  - generic [ref=e1288]: Anub'arak
+              - cell "46.03" [ref=e1289]
+              - cell "±7.11" [ref=e1290]
+              - cell "+0.15" [ref=e1291]
+              - cell "26.07" [ref=e1292]
+              - cell "15.25" [ref=e1293]
+              - cell "10.82" [ref=e1294]
+              - cell "-68" [ref=e1295]
+              - cell "189" [ref=e1296]
+              - cell "View Talent Builds" [ref=e1297]:
+                - button "View Talent Builds" [ref=e1298] [cursor=pointer]
+            - row "Anduin Anduin 45.98 ±5.14 -6.96 53.03 29.14 23.89 -154 361 View Talent Builds" [ref=e1299]:
+              - cell "Anduin Anduin" [ref=e1300]:
+                - link "Anduin Anduin" [ref=e1301] [cursor=pointer]:
+                  - /url: /Global/Talents/Anduin?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Anduin" [ref=e1304]
+                  - generic [ref=e1305]: Anduin
+              - cell "45.98" [ref=e1306]
+              - cell "±5.14" [ref=e1307]
+              - cell "-6.96" [ref=e1308]
+              - cell "53.03" [ref=e1309]
+              - cell "29.14" [ref=e1310]
+              - cell "23.89" [ref=e1311]
+              - cell "-154" [ref=e1312]
+              - cell "361" [ref=e1313]
+              - cell "View Talent Builds" [ref=e1314]:
+                - button "View Talent Builds" [ref=e1315] [cursor=pointer]
+            - row "The Lost Vikings The Lost Vikings 45.83 ±19.93 -25.60 4.36 1.94 2.42 -8 24 View Talent Builds" [ref=e1316]:
+              - cell "The Lost Vikings The Lost Vikings" [ref=e1317]:
+                - link "The Lost Vikings The Lost Vikings" [ref=e1318] [cursor=pointer]:
+                  - /url: /Global/Talents/The Lost Vikings?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "The Lost Vikings" [ref=e1321]
+                  - generic [ref=e1322]: The Lost Vikings
+              - cell "45.83" [ref=e1323]
+              - cell "±19.93" [ref=e1324]
+              - cell "-25.60" [ref=e1325]
+              - cell "4.36" [ref=e1326]
+              - cell "1.94" [ref=e1327]
+              - cell "2.42" [ref=e1328]
+              - cell "-8" [ref=e1329]
+              - cell "24" [ref=e1330]
+              - cell "View Talent Builds" [ref=e1331]:
+                - button "View Talent Builds" [ref=e1332] [cursor=pointer]
+            - row "Orphea Orphea 45.71 ±9.53 -2.20 9.44 8.47 0.97 -37 105 View Talent Builds" [ref=e1333]:
+              - cell "Orphea Orphea" [ref=e1334]:
+                - link "Orphea Orphea" [ref=e1335] [cursor=pointer]:
+                  - /url: /Global/Talents/Orphea?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Orphea" [ref=e1338]
+                  - generic [ref=e1339]: Orphea
+              - cell "45.71" [ref=e1340]
+              - cell "±9.53" [ref=e1341]
+              - cell "-2.20" [ref=e1342]
+              - cell "9.44" [ref=e1343]
+              - cell "8.47" [ref=e1344]
+              - cell "0.97" [ref=e1345]
+              - cell "-37" [ref=e1346]
+              - cell "105" [ref=e1347]
+              - cell "View Talent Builds" [ref=e1348]:
+                - button "View Talent Builds" [ref=e1349] [cursor=pointer]
+            - row "Ana Ana 45.59 ±11.84 +1.69 6.46 5.49 0.97 -24 68 View Talent Builds" [ref=e1350]:
+              - cell "Ana Ana" [ref=e1351]:
+                - link "Ana Ana" [ref=e1352] [cursor=pointer]:
+                  - /url: /Global/Talents/Ana?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Ana" [ref=e1355]
+                  - generic [ref=e1356]: Ana
+              - cell "45.59" [ref=e1357]
+              - cell "±11.84" [ref=e1358]
+              - cell "+1.69" [ref=e1359]
+              - cell "6.46" [ref=e1360]
+              - cell "5.49" [ref=e1361]
+              - cell "0.97" [ref=e1362]
+              - cell "-24" [ref=e1363]
+              - cell "68" [ref=e1364]
+              - cell "View Talent Builds" [ref=e1365]:
+                - button "View Talent Builds" [ref=e1366] [cursor=pointer]
+            - row "Lunara Lunara 45.00 ±9.75 -11.76 8.88 8.07 0.81 -41 100 View Talent Builds" [ref=e1367]:
+              - cell "Lunara Lunara" [ref=e1368]:
+                - link "Lunara Lunara" [ref=e1369] [cursor=pointer]:
+                  - /url: /Global/Talents/Lunara?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Lunara" [ref=e1372]
+                  - generic [ref=e1373]: Lunara
+              - cell "45.00" [ref=e1374]
+              - cell "±9.75" [ref=e1375]
+              - cell "-11.76" [ref=e1376]
+              - cell "8.88" [ref=e1377]
+              - cell "8.07" [ref=e1378]
+              - cell "0.81" [ref=e1379]
+              - cell "-41" [ref=e1380]
+              - cell "100" [ref=e1381]
+              - cell "View Talent Builds" [ref=e1382]:
+                - button "View Talent Builds" [ref=e1383] [cursor=pointer]
+            - row "Gazlowe Gazlowe 44.19 ±10.50 -5.81 7.51 6.94 0.56 -41 86 View Talent Builds" [ref=e1384]:
+              - cell "Gazlowe Gazlowe" [ref=e1385]:
+                - link "Gazlowe Gazlowe" [ref=e1386] [cursor=pointer]:
+                  - /url: /Global/Talents/Gazlowe?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Gazlowe" [ref=e1389]
+                  - generic [ref=e1390]: Gazlowe
+              - cell "44.19" [ref=e1391]
+              - cell "±10.50" [ref=e1392]
+              - cell "-5.81" [ref=e1393]
+              - cell "7.51" [ref=e1394]
+              - cell "6.94" [ref=e1395]
+              - cell "0.56" [ref=e1396]
+              - cell "-41" [ref=e1397]
+              - cell "86" [ref=e1398]
+              - cell "View Talent Builds" [ref=e1399]:
+                - button "View Talent Builds" [ref=e1400] [cursor=pointer]
+            - row "Alexstrasza Alexstrasza 43.82 ±10.31 +1.51 7.91 7.18 0.73 -45 89 View Talent Builds" [ref=e1401]:
+              - cell "Alexstrasza Alexstrasza" [ref=e1402]:
+                - link "Alexstrasza Alexstrasza" [ref=e1403] [cursor=pointer]:
+                  - /url: /Global/Talents/Alexstrasza?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Alexstrasza" [ref=e1406]
+                  - generic [ref=e1407]: Alexstrasza
+              - cell "43.82" [ref=e1408]
+              - cell "±10.31" [ref=e1409]
+              - cell "+1.51" [ref=e1410]
+              - cell "7.91" [ref=e1411]
+              - cell "7.18" [ref=e1412]
+              - cell "0.73" [ref=e1413]
+              - cell "-45" [ref=e1414]
+              - cell "89" [ref=e1415]
+              - cell "View Talent Builds" [ref=e1416]:
+                - button "View Talent Builds" [ref=e1417] [cursor=pointer]
+            - row "Lúcio Lúcio 43.69 ±9.58 +1.47 10.01 8.31 1.69 -53 103 View Talent Builds" [ref=e1418]:
+              - cell "Lúcio Lúcio" [ref=e1419]:
+                - link "Lúcio Lúcio" [ref=e1420] [cursor=pointer]:
+                  - /url: /Global/Talents/Lúcio?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Lúcio" [ref=e1423]
+                  - generic [ref=e1424]: Lúcio
+              - cell "43.69" [ref=e1425]
+              - cell "±9.58" [ref=e1426]
+              - cell "+1.47" [ref=e1427]
+              - cell "10.01" [ref=e1428]
+              - cell "8.31" [ref=e1429]
+              - cell "1.69" [ref=e1430]
+              - cell "-53" [ref=e1431]
+              - cell "103" [ref=e1432]
+              - cell "View Talent Builds" [ref=e1433]:
+                - button "View Talent Builds" [ref=e1434] [cursor=pointer]
+            - row "The Butcher The Butcher 43.55 ±12.34 +2.81 6.05 5.00 1.05 -33 62 View Talent Builds" [ref=e1435]:
+              - cell "The Butcher The Butcher" [ref=e1436]:
+                - link "The Butcher The Butcher" [ref=e1437] [cursor=pointer]:
+                  - /url: /Global/Talents/The Butcher?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "The Butcher" [ref=e1440]
+                  - generic [ref=e1441]: The Butcher
+              - cell "43.55" [ref=e1442]
+              - cell "±12.34" [ref=e1443]
+              - cell "+2.81" [ref=e1444]
+              - cell "6.05" [ref=e1445]
+              - cell "5.00" [ref=e1446]
+              - cell "1.05" [ref=e1447]
+              - cell "-33" [ref=e1448]
+              - cell "62" [ref=e1449]
+              - cell "View Talent Builds" [ref=e1450]:
+                - button "View Talent Builds" [ref=e1451] [cursor=pointer]
+            - row "Diablo Diablo 43.03 ±7.55 -9.98 25.10 13.32 11.78 -105 165 View Talent Builds" [ref=e1452]:
+              - cell "Diablo Diablo" [ref=e1453]:
+                - link "Diablo Diablo" [ref=e1454] [cursor=pointer]:
+                  - /url: /Global/Talents/Diablo?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Diablo" [ref=e1457]
+                  - generic [ref=e1458]: Diablo
+              - cell "43.03" [ref=e1459]
+              - cell "±7.55" [ref=e1460]
+              - cell "-9.98" [ref=e1461]
+              - cell "25.10" [ref=e1462]
+              - cell "13.32" [ref=e1463]
+              - cell "11.78" [ref=e1464]
+              - cell "-105" [ref=e1465]
+              - cell "165" [ref=e1466]
+              - cell "View Talent Builds" [ref=e1467]:
+                - button "View Talent Builds" [ref=e1468] [cursor=pointer]
+            - row "Lt. Morales Lt. Morales 42.53 ±10.39 -14.61 8.07 7.02 1.05 -53 87 View Talent Builds" [ref=e1469]:
+              - cell "Lt. Morales Lt. Morales" [ref=e1470]:
+                - link "Lt. Morales Lt. Morales" [ref=e1471] [cursor=pointer]:
+                  - /url: /Global/Talents/Lt. Morales?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Lt. Morales" [ref=e1474]
+                  - generic [ref=e1475]: Lt. Morales
+              - cell "42.53" [ref=e1476]
+              - cell "±10.39" [ref=e1477]
+              - cell "-14.61" [ref=e1478]
+              - cell "8.07" [ref=e1479]
+              - cell "7.02" [ref=e1480]
+              - cell "1.05" [ref=e1481]
+              - cell "-53" [ref=e1482]
+              - cell "87" [ref=e1483]
+              - cell "View Talent Builds" [ref=e1484]:
+                - button "View Talent Builds" [ref=e1485] [cursor=pointer]
+            - row "Cassia Cassia 42.47 ±11.34 -12.80 6.30 5.89 0.40 -45 73 View Talent Builds" [ref=e1486]:
+              - cell "Cassia Cassia" [ref=e1487]:
+                - link "Cassia Cassia" [ref=e1488] [cursor=pointer]:
+                  - /url: /Global/Talents/Cassia?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Cassia" [ref=e1491]
+                  - generic [ref=e1492]: Cassia
+              - cell "42.47" [ref=e1493]
+              - cell "±11.34" [ref=e1494]
+              - cell "-12.80" [ref=e1495]
+              - cell "6.30" [ref=e1496]
+              - cell "5.89" [ref=e1497]
+              - cell "0.40" [ref=e1498]
+              - cell "-45" [ref=e1499]
+              - cell "73" [ref=e1500]
+              - cell "View Talent Builds" [ref=e1501]:
+                - button "View Talent Builds" [ref=e1502] [cursor=pointer]
+            - row "Junkrat Junkrat 42.35 ±10.50 -9.82 8.88 6.86 2.02 -54 85 View Talent Builds" [ref=e1503]:
+              - cell "Junkrat Junkrat" [ref=e1504]:
+                - link "Junkrat Junkrat" [ref=e1505] [cursor=pointer]:
+                  - /url: /Global/Talents/Junkrat?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Junkrat" [ref=e1508]
+                  - generic [ref=e1509]: Junkrat
+              - cell "42.35" [ref=e1510]
+              - cell "±10.50" [ref=e1511]
+              - cell "-9.82" [ref=e1512]
+              - cell "8.88" [ref=e1513]
+              - cell "6.86" [ref=e1514]
+              - cell "2.02" [ref=e1515]
+              - cell "-54" [ref=e1516]
+              - cell "85" [ref=e1517]
+              - cell "View Talent Builds" [ref=e1518]:
+                - button "View Talent Builds" [ref=e1519] [cursor=pointer]
+            - row "Valeera Valeera 41.67 ±16.10 -23.33 3.95 2.91 1.05 -24 36 View Talent Builds" [ref=e1520]:
+              - cell "Valeera Valeera" [ref=e1521]:
+                - link "Valeera Valeera" [ref=e1522] [cursor=pointer]:
+                  - /url: /Global/Talents/Valeera?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Valeera" [ref=e1525]
+                  - generic [ref=e1526]: Valeera
+              - cell "41.67" [ref=e1527]
+              - cell "±16.10" [ref=e1528]
+              - cell "-23.33" [ref=e1529]
+              - cell "3.95" [ref=e1530]
+              - cell "2.91" [ref=e1531]
+              - cell "1.05" [ref=e1532]
+              - cell "-24" [ref=e1533]
+              - cell "36" [ref=e1534]
+              - cell "View Talent Builds" [ref=e1535]:
+                - button "View Talent Builds" [ref=e1536] [cursor=pointer]
+            - row "Gul'dan Gul'dan 41.55 ±8.11 -3.51 13.88 11.46 2.42 -99 142 View Talent Builds" [ref=e1537]:
+              - cell "Gul'dan Gul'dan" [ref=e1538]:
+                - link "Gul'dan Gul'dan" [ref=e1539] [cursor=pointer]:
+                  - /url: /Global/Talents/Gul'dan?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Gul'dan" [ref=e1542]
+                  - generic [ref=e1543]: Gul'dan
+              - cell "41.55" [ref=e1544]
+              - cell "±8.11" [ref=e1545]
+              - cell "-3.51" [ref=e1546]
+              - cell "13.88" [ref=e1547]
+              - cell "11.46" [ref=e1548]
+              - cell "2.42" [ref=e1549]
+              - cell "-99" [ref=e1550]
+              - cell "142" [ref=e1551]
+              - cell "View Talent Builds" [ref=e1552]:
+                - button "View Talent Builds" [ref=e1553] [cursor=pointer]
+            - row "Murky Murky 41.10 ±11.29 -11.40 7.02 5.89 1.13 -53 73 View Talent Builds" [ref=e1554]:
+              - cell "Murky Murky" [ref=e1555]:
+                - link "Murky Murky" [ref=e1556] [cursor=pointer]:
+                  - /url: /Global/Talents/Murky?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Murky" [ref=e1559]
+                  - generic [ref=e1560]: Murky
+              - cell "41.10" [ref=e1561]
+              - cell "±11.29" [ref=e1562]
+              - cell "-11.40" [ref=e1563]
+              - cell "7.02" [ref=e1564]
+              - cell "5.89" [ref=e1565]
+              - cell "1.13" [ref=e1566]
+              - cell "-53" [ref=e1567]
+              - cell "73" [ref=e1568]
+              - cell "View Talent Builds" [ref=e1569]:
+                - button "View Talent Builds" [ref=e1570] [cursor=pointer]
+            - row "Nova Nova 39.39 ±11.79 -3.94 5.89 5.33 0.56 -57 66 View Talent Builds" [ref=e1571]:
+              - cell "Nova Nova" [ref=e1572]:
+                - link "Nova Nova" [ref=e1573] [cursor=pointer]:
+                  - /url: /Global/Talents/Nova?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Nova" [ref=e1576]
+                  - generic [ref=e1577]: Nova
+              - cell "39.39" [ref=e1578]
+              - cell "±11.79" [ref=e1579]
+              - cell "-3.94" [ref=e1580]
+              - cell "5.89" [ref=e1581]
+              - cell "5.33" [ref=e1582]
+              - cell "0.56" [ref=e1583]
+              - cell "-57" [ref=e1584]
+              - cell "66" [ref=e1585]
+              - cell "View Talent Builds" [ref=e1586]:
+                - button "View Talent Builds" [ref=e1587] [cursor=pointer]
+            - row "Mei Mei 38.61 ±9.50 +2.25 9.20 8.15 1.05 -94 101 View Talent Builds" [ref=e1588]:
+              - cell "Mei Mei" [ref=e1589]:
+                - link "Mei Mei" [ref=e1590] [cursor=pointer]:
+                  - /url: /Global/Talents/Mei?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Mei" [ref=e1593]
+                  - generic [ref=e1594]: Mei
+              - cell "38.61" [ref=e1595]
+              - cell "±9.50" [ref=e1596]
+              - cell "+2.25" [ref=e1597]
+              - cell "9.20" [ref=e1598]
+              - cell "8.15" [ref=e1599]
+              - cell "1.05" [ref=e1600]
+              - cell "-94" [ref=e1601]
+              - cell "101" [ref=e1602]
+              - cell "View Talent Builds" [ref=e1603]:
+                - button "View Talent Builds" [ref=e1604] [cursor=pointer]
+            - row "Abathur Abathur 38.38 ±9.58 -8.98 14.12 7.99 6.13 -99 99 View Talent Builds" [ref=e1605]:
+              - cell "Abathur Abathur" [ref=e1606]:
+                - link "Abathur Abathur" [ref=e1607] [cursor=pointer]:
+                  - /url: /Global/Talents/Abathur?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Abathur" [ref=e1610]
+                  - generic [ref=e1611]: Abathur
+              - cell "38.38" [ref=e1612]
+              - cell "±9.58" [ref=e1613]
+              - cell "-8.98" [ref=e1614]
+              - cell "14.12" [ref=e1615]
+              - cell "7.99" [ref=e1616]
+              - cell "6.13" [ref=e1617]
+              - cell "-99" [ref=e1618]
+              - cell "99" [ref=e1619]
+              - cell "View Talent Builds" [ref=e1620]:
+                - button "View Talent Builds" [ref=e1621] [cursor=pointer]
+            - row "Genji Genji 32.05 ±10.36 -20.58 8.56 6.30 2.26 -116 78 View Talent Builds" [ref=e1622]:
+              - cell "Genji Genji" [ref=e1623]:
+                - link "Genji Genji" [ref=e1624] [cursor=pointer]:
+                  - /url: /Global/Talents/Genji?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Genji" [ref=e1627]
+                  - generic [ref=e1628]: Genji
+              - cell "32.05" [ref=e1629]
+              - cell "±10.36" [ref=e1630]
+              - cell "-20.58" [ref=e1631]
+              - cell "8.56" [ref=e1632]
+              - cell "6.30" [ref=e1633]
+              - cell "2.26" [ref=e1634]
+              - cell "-116" [ref=e1635]
+              - cell "78" [ref=e1636]
+              - cell "View Talent Builds" [ref=e1637]:
+                - button "View Talent Builds" [ref=e1638] [cursor=pointer]
+            - row "Cho Cho 28.57 ±19.32 -54.76 5.08 1.69 3.39 -38 21 View Talent Builds" [ref=e1639]:
+              - cell "Cho Cho" [ref=e1640]:
+                - link "Cho Cho" [ref=e1641] [cursor=pointer]:
+                  - /url: /Global/Talents/Cho?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Cho" [ref=e1644]
+                  - generic [ref=e1645]: Cho
+              - cell "28.57" [ref=e1646]
+              - cell "±19.32" [ref=e1647]
+              - cell "-54.76" [ref=e1648]
+              - cell "5.08" [ref=e1649]
+              - cell "1.69" [ref=e1650]
+              - cell "3.39" [ref=e1651]
+              - cell "-38" [ref=e1652]
+              - cell "21" [ref=e1653]
+              - cell "View Talent Builds" [ref=e1654]:
+                - button "View Talent Builds" [ref=e1655] [cursor=pointer]
+            - row "Gall Gall 28.57 ±19.32 -54.76 2.99 1.69 1.29 -37 21 View Talent Builds" [ref=e1656]:
+              - cell "Gall Gall" [ref=e1657]:
+                - link "Gall Gall" [ref=e1658] [cursor=pointer]:
+                  - /url: /Global/Talents/Gall?timeframe_type=minor&timeframe=2.55.15.96477&game_type=sl&statfilter=win_rate&build_type=Popular&mirror=0
+                  - img "Gall" [ref=e1661]
+                  - generic [ref=e1662]: Gall
+              - cell "28.57" [ref=e1663]
+              - cell "±19.32" [ref=e1664]
+              - cell "-54.76" [ref=e1665]
+              - cell "2.99" [ref=e1666]
+              - cell "1.69" [ref=e1667]
+              - cell "1.29" [ref=e1668]
+              - cell "-37" [ref=e1669]
+              - cell "21" [ref=e1670]
+              - cell "View Talent Builds" [ref=e1671]:
+                - button "View Talent Builds" [ref=e1672] [cursor=pointer]
+    - generic [ref=e1676]:
+      - generic [ref=e1677]:
+        - link "Heroes Heroes Profile Logo Profile" [ref=e1679] [cursor=pointer]:
+          - /url: /
+          - text: Heroes
+          - img "Heroes Profile Logo" [ref=e1680]
+          - text: Profile
+        - generic [ref=e1681]:
+          - generic [ref=e1682]: "62557872 replays | Patch 2.55.15.96477 | Up to date as of: 02/20/2026 7:16:41 pm"
+          - paragraph [ref=e1683]:
+            - link "Privacy Policy" [ref=e1684] [cursor=pointer]:
+              - /url: /Privacy/Policy
+          - generic [ref=e1685]:
+            - text: Skill Tree Development, LLC |
+            - link "Heroes Profile" [ref=e1686] [cursor=pointer]:
+              - /url: https://heroesprofile.com
+      - generic [ref=e1687]:
+        - generic [ref=e1688]:
+          - text: Heroes Profile is funded by its developers. If you like the site, consider donating to our Patreon. even $2 helps. The data on this website relies on replays uploaded to Heroes Profile API. Make sure you go there to upload your data. If you do not upload your replays, your data will not be accurate. This site uses cookies in order to store your recent profile views. To learn more, view our
+          - link "Privacy Policy" [ref=e1689] [cursor=pointer]:
+            - /url: /Privacy/Policy
+        - button "Accept and close" [ref=e1690] [cursor=pointer]
+  - button "Do Not Sell or Share My Personal Information" [ref=e1694] [cursor=pointer]:
+    - paragraph [ref=e1696]: Do Not Sell or Share My Personal Information
