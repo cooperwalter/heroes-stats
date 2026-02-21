@@ -18,7 +18,14 @@ import {
 } from "~/lib/api";
 import { filterSearchSchema, GAME_MODES, MMR_TIERS } from "~/lib/filters";
 import { resolveLatestPatch } from "~/lib/patches";
-import type { TalentDetail, TalentMeta } from "~/lib/types";
+import type {
+	ApiResult,
+	TalentBuildsResponse,
+	TalentDetail,
+	TalentDetailsResponse,
+	TalentMeta,
+	TalentMetaResponse,
+} from "~/lib/types";
 import "./$heroSlug.css";
 
 const TALENT_LEVELS = [1, 4, 7, 10, 13, 16, 20] as const;
@@ -29,11 +36,55 @@ export const Route = createFileRoute("/heroes/$heroSlug")({
 	component: HeroTalentPage,
 	pendingComponent: HeroTalentPendingComponent,
 	loader: async ({ params, deps }) => {
-		const { currentPatch } = await resolveLatestPatch();
+		let currentPatch: string;
+		try {
+			const patches = await resolveLatestPatch();
+			currentPatch = patches.currentPatch;
+		} catch (err) {
+			const message =
+				err instanceof Error ? err.message : "Failed to load patch data";
+			const errorResult: ApiResult<never> = {
+				error: "upstream_unavailable",
+				message,
+			};
+			return {
+				hero: {
+					id: 0,
+					name: params.heroSlug,
+					short_name: params.heroSlug,
+					role: "",
+					new_role: "",
+					type: "",
+					attribute_id: "",
+				},
+				heroName: params.heroSlug,
+				talentDetailsResult: errorResult as ApiResult<TalentDetailsResponse>,
+				talentBuildsResult: errorResult as ApiResult<TalentBuildsResponse>,
+				heroTalentsResult: errorResult as ApiResult<TalentMetaResponse>,
+			};
+		}
 
 		const heroesResult = await getHeroes();
 		if (heroesResult.error) {
-			throw new Error(heroesResult.message);
+			const errorResult: ApiResult<never> = {
+				error: heroesResult.error,
+				message: heroesResult.message,
+			};
+			return {
+				hero: {
+					id: 0,
+					name: params.heroSlug,
+					short_name: params.heroSlug,
+					role: "",
+					new_role: "",
+					type: "",
+					attribute_id: "",
+				},
+				heroName: params.heroSlug,
+				talentDetailsResult: errorResult as ApiResult<TalentDetailsResponse>,
+				talentBuildsResult: errorResult as ApiResult<TalentBuildsResponse>,
+				heroTalentsResult: errorResult as ApiResult<TalentMetaResponse>,
+			};
 		}
 
 		const heroes = heroesResult.data ?? {};

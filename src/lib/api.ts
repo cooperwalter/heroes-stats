@@ -32,15 +32,17 @@ async function fetchJson<T>(
 		response = await fetch(url.toString(), {
 			signal: AbortSignal.timeout(10000),
 		});
-	} catch (err) {
-		const message = err instanceof Error ? err.message : "Network error";
-		return { error: "upstream_unavailable", message };
+	} catch {
+		return {
+			error: "upstream_unavailable",
+			message: "HeroesProfile API is not responding",
+		};
 	}
 
 	if (!response.ok) {
 		return {
 			error: "upstream_error",
-			message: `Upstream returned ${response.status}`,
+			message: `HeroesProfile API returned ${response.status}`,
 			status: response.status,
 		};
 	}
@@ -49,7 +51,7 @@ async function fetchJson<T>(
 	try {
 		data = (await response.json()) as T;
 	} catch {
-		return { error: "parse_error", message: "Failed to parse JSON response" };
+		return { error: "parse_error", message: "Failed to parse API response" };
 	}
 
 	return { data };

@@ -16,7 +16,13 @@ import type { ModeKey, TierKey } from "~/lib/filters";
 import { filterSearchSchema, GAME_MODES, MMR_TIERS } from "~/lib/filters";
 import { formatNumber, formatPercent } from "~/lib/format";
 import { resolveLatestPatch } from "~/lib/patches";
-import type { Hero, HeroStats } from "~/lib/types";
+import type {
+	ApiResult,
+	Hero,
+	HeroesResponse,
+	HeroStats,
+	HeroStatsResponse,
+} from "~/lib/types";
 import "./index.css";
 
 export const Route = createFileRoute("/")({
@@ -29,7 +35,28 @@ export const Route = createFileRoute("/")({
 	pendingComponent: PendingComponent,
 	loader: async ({ deps }) => {
 		const { mode, tier } = deps;
-		const { currentPatch, previousPatch } = await resolveLatestPatch();
+
+		let currentPatch: string;
+		let previousPatch: string | null;
+		try {
+			const patches = await resolveLatestPatch();
+			currentPatch = patches.currentPatch;
+			previousPatch = patches.previousPatch;
+		} catch (err) {
+			const message =
+				err instanceof Error ? err.message : "Failed to load patch data";
+			const errorResult: ApiResult<never> = {
+				error: "upstream_unavailable",
+				message,
+			};
+			return {
+				heroesResult: errorResult as ApiResult<HeroesResponse>,
+				currentStatsResult: errorResult as ApiResult<HeroStatsResponse>,
+				previousStatsResult: null,
+				currentPatch: "",
+				previousPatch: null,
+			};
+		}
 
 		const gameType = GAME_MODES[mode].apiValue;
 		const leagueTier = MMR_TIERS[tier].apiValue;
@@ -100,11 +127,6 @@ function HeroStatsPage() {
 	};
 
 	if (heroesResult.error || currentStatsResult.error) {
-		const message = heroesResult.error
-			? heroesResult.message
-			: currentStatsResult.error
-				? currentStatsResult.message
-				: "Failed to load data";
 		return (
 			<main className="container hero-stats-page">
 				<div className="hero-stats-header">
@@ -118,7 +140,10 @@ function HeroStatsPage() {
 						onTierChange={onTierChange}
 					/>
 				</div>
-				<ErrorMessage message={message} onRetry={() => router.invalidate()} />
+				<ErrorMessage
+					message="Failed to load hero stats. Please try again."
+					onRetry={() => router.invalidate()}
+				/>
 			</main>
 		);
 	}
@@ -333,9 +358,13 @@ function HeroStatsPage() {
 											<span className="win-rate-change win-rate-change--positive">
 												+{formatPercent(change)}
 											</span>
-										) : (
+										) : change < 0 ? (
 											<span className="win-rate-change win-rate-change--negative">
 												−{formatPercent(Math.abs(change))}
+											</span>
+										) : (
+											<span className="win-rate-change win-rate-change--neutral">
+												{formatPercent(0)}
 											</span>
 										)}
 									</td>
