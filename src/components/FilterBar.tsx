@@ -25,6 +25,7 @@ export function FilterBar({
 						key={key}
 						type="button"
 						className={`filter-bar-mode-btn${mode === key ? " filter-bar-mode-btn--active" : ""}`}
+						aria-pressed={mode === key}
 						onClick={() => onModeChange(key)}
 					>
 						{gm.display}
@@ -33,6 +34,7 @@ export function FilterBar({
 			</div>
 			<select
 				className="filter-bar-tier"
+				aria-label="MMR Tier"
 				value={tier}
 				onChange={(e) => onTierChange(e.target.value)}
 			>

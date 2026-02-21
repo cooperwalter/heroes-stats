@@ -35,6 +35,8 @@ Heroes of the Storm stats dashboard using TanStack Start, Bun, and the HeroesPro
 - Loader error handling: `resolveLatestPatch()` throws on failure, so loaders must wrap it in try-catch and return error-shaped results instead of crashing. Same for `getHeroes()` errors in the talent page loader.
 - Cache key parameter names must use camelCase (matching function input param names), not snake_case — spec example: `getHeroStats:gameType=Storm League&timeframe=2.55.15.96477&timeframeType=minor`.
 - Eager API token validation belongs in `src/server.ts` (the server entry point), not in `env.ts`, so the app fails to start if the token is missing without breaking test isolation.
+- `PendingComponent` must use `Route.useSearch()` to read current URL params — hardcoded defaults cause flash of wrong filter state during loading.
+- Talent name display must use `TalentMeta.title` (from metadata endpoint) rather than the raw key from the talent details response, since they may differ.
 
 ---
 
@@ -55,16 +57,24 @@ Heroes of the Storm stats dashboard using TanStack Start, Bun, and the HeroesPro
 - [x] No lint errors (`bun run lint`)
 - [x] Clean build (`bun run build`)
 
-## Bugs fixed (0.0.4)
+## Bugs fixed (0.0.5)
 
-- **Eager API token validation** — spec requires app to fail to start if `HEROESPROFILE_API_TOKEN` is missing. Added `getApiToken()` call at server entry (`src/server.ts`) so the app crashes immediately on startup, not lazily on first request.
-- **Cache key parameter naming** — cache keys used snake_case (`game_type`, `league_tier`) instead of spec-required camelCase (`gameType`, `leagueTier`). Fixed in `getHeroStats`, `getTalentDetails`, `getTalentBuilds`.
-- **Table not horizontally scrollable on mobile** — `.heroes-table-wrapper` used `overflow: hidden` which clipped the table. Added `@media (max-width: 768px)` rule with `overflow-x: auto` for horizontal scroll.
-- **Build row layout wrong** — win rate and games played were side-by-side. Spec requires games played below win rate. Changed `.build-row-right` to `flex-direction: column` with `align-items: flex-end`.
-- **Best talent hover lost green border** — `.talent-card--best:hover` overrode green border with accent color. Fixed to preserve `var(--green)` border on hover.
-- **Pending components missing FilterBar** — both index and hero talent skeleton/pending states omitted FilterBar and back link, causing layout shift. Added static FilterBar and back link to both pending components.
-- **Games played conditionally hidden** — `TalentCard` and `BuildRow` hid games played entirely when `undefined`. Now always renders, showing "—" as fallback.
-- **Change column used Unicode minus** — negative win rate change used U+2212 (mathematical minus) instead of spec-required ASCII hyphen-minus.
+- **NavBar links not right-aligned** — spec says navigation links on the right; added `margin-left: auto` to `.navbar-links`.
+- **h2 letter-spacing wrong** — was `-0.02em`, spec requires `-0.03em` for all headings. Fixed in `global.css`.
+- **StatCard value letter-spacing wrong** — was `-0.02em`, spec requires `-0.03em`. Fixed in `StatCard.css`.
+- **Level badge not pill-shaped** — was `border-radius: 5px`, spec says "pill" which requires `9999px`. Fixed in `$heroSlug.css`.
+- **TalentCard stat value font size wrong** — was `0.8125rem`, spec says stats row is `0.75rem`. Fixed in `TalentCard.css`.
+- **Stat cards had unauthorized 480px single-column breakpoint** — spec only says 2x2 on mobile; removed the extra `@media (max-width: 480px)` rule.
+- **PendingComponent missing SkeletonCards** — both index route and hero talent route now show skeleton cards during loading (4 stat card skeletons on index, 3 talent card skeletons per tier on talent page). Prevents layout shift.
+- **PendingComponent used hardcoded filter defaults** — both routes' pending components now read URL params via `Route.useSearch()` instead of hardcoded `mode="sl"` and `tier="all"`. Fixes flash of wrong active filter during navigation.
+- **Talent name rendered wrong field** — `TalentCard` received the raw key from the talent details response instead of `TalentMeta.title` from the metadata endpoint. Now uses `meta?.title ?? name` to prefer the spec-required title field.
+- **MiniBar missing green variant** — spec says "Fill uses accent color at 60% opacity for pick rate, green for win rate." Added `variant` prop (`"accent" | "green"`) with corresponding CSS class.
+- **FilterBar toggle buttons missing `aria-pressed`** — screen readers couldn't identify the active game mode. Added `aria-pressed={mode === key}`.
+- **FilterBar select missing accessible label** — `<select>` had no `<label>` or `aria-label`. Added `aria-label="MMR Tier"`.
+- **Table missing `aria-label`** — `<table>` now has `aria-label="Hero statistics"`.
+- **Sortable column headers missing `aria-sort`** — all sortable `<th>` elements now include `aria-sort="ascending"` or `aria-sort="descending"` when active.
+- **Sort indicator not hidden from screen readers** — `▲`/`▼` spans now have `aria-hidden="true"`.
+- **Table rows not keyboard-accessible** — `<tr>` elements now have `tabIndex={0}` and `onKeyDown` handler for Enter/Space to navigate to hero pages.
 
 ## Remaining: Integration Verification (manual)
 

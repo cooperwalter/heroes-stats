@@ -3,11 +3,13 @@ import {
 	useNavigate,
 	useRouter,
 } from "@tanstack/react-router";
+import type { KeyboardEvent } from "react";
 import { useState } from "react";
 import { ErrorMessage } from "~/components/ErrorMessage";
 import { FilterBar } from "~/components/FilterBar";
 import { HeroPortrait } from "~/components/HeroPortrait";
 import { MiniBar } from "~/components/MiniBar";
+import { SkeletonCard } from "~/components/SkeletonCard";
 import { SkeletonRow } from "~/components/SkeletonRow";
 import { StatCard } from "~/components/StatCard";
 import { WinRatePill } from "~/components/WinRatePill";
@@ -243,14 +245,39 @@ function HeroStatsPage() {
 	const sortIndicator = (col: SortColumn) => {
 		if (col !== sortColumn) return null;
 		return (
-			<span className="sort-indicator">
-				{sortDirection === "asc" ? "▲" : "▼"}
+			<span className="sort-indicator" aria-hidden="true">
+				{sortDirection === "asc" ? "\u25B2" : "\u25BC"}
 			</span>
 		);
 	};
 
+	const ariaSort = (col: SortColumn): "ascending" | "descending" | undefined =>
+		sortColumn === col
+			? sortDirection === "asc"
+				? "ascending"
+				: "descending"
+			: undefined;
+
 	const thClass = (col: SortColumn) =>
 		`sortable${sortColumn === col ? " sorted" : ""}`;
+
+	const navigateToHero = (shortName: string) => {
+		navigate({
+			to: "/heroes/$heroSlug",
+			params: { heroSlug: shortName },
+			search: { mode, tier },
+		});
+	};
+
+	const handleRowKeyDown = (
+		e: KeyboardEvent<HTMLTableRowElement>,
+		shortName: string,
+	) => {
+		if (e.key === "Enter" || e.key === " ") {
+			e.preventDefault();
+			navigateToHero(shortName);
+		}
+	};
 
 	return (
 		<main className="container hero-stats-page">
@@ -278,42 +305,48 @@ function HeroStatsPage() {
 			</div>
 
 			<div className="heroes-table-wrapper">
-				<table className="heroes-table">
+				<table className="heroes-table" aria-label="Hero statistics">
 					<thead>
 						<tr>
 							<th className="heroes-table-rank">#</th>
 							<th
 								className={thClass("name")}
+								aria-sort={ariaSort("name")}
 								onClick={() => handleSort("name")}
 							>
 								Hero{sortIndicator("name")}
 							</th>
 							<th
 								className={thClass("win_rate")}
+								aria-sort={ariaSort("win_rate")}
 								onClick={() => handleSort("win_rate")}
 							>
 								Win Rate{sortIndicator("win_rate")}
 							</th>
 							<th
 								className={thClass("change")}
+								aria-sort={ariaSort("change")}
 								onClick={() => handleSort("change")}
 							>
 								Change{sortIndicator("change")}
 							</th>
 							<th
 								className={thClass("pick_rate")}
+								aria-sort={ariaSort("pick_rate")}
 								onClick={() => handleSort("pick_rate")}
 							>
 								Pick Rate{sortIndicator("pick_rate")}
 							</th>
 							<th
 								className={thClass("ban_rate")}
+								aria-sort={ariaSort("ban_rate")}
 								onClick={() => handleSort("ban_rate")}
 							>
 								Ban Rate{sortIndicator("ban_rate")}
 							</th>
 							<th
 								className={thClass("games_played")}
+								aria-sort={ariaSort("games_played")}
 								onClick={() => handleSort("games_played")}
 							>
 								Games Played{sortIndicator("games_played")}
@@ -326,13 +359,9 @@ function HeroStatsPage() {
 							return (
 								<tr
 									key={row.hero.short_name}
-									onClick={() =>
-										navigate({
-											to: "/heroes/$heroSlug",
-											params: { heroSlug: row.hero.short_name },
-											search: { mode, tier },
-										})
-									}
+									tabIndex={0}
+									onClick={() => navigateToHero(row.hero.short_name)}
+									onKeyDown={(e) => handleRowKeyDown(e, row.hero.short_name)}
 								>
 									<td className="heroes-table-rank">{index + 1}</td>
 									<td>
@@ -389,6 +418,7 @@ function HeroStatsPage() {
 }
 
 export function PendingComponent() {
+	const { mode, tier } = Route.useSearch();
 	return (
 		<main className="container hero-stats-page">
 			<div className="hero-stats-header">
@@ -396,11 +426,17 @@ export function PendingComponent() {
 			</div>
 			<div className="hero-stats-filters">
 				<FilterBar
-					mode="sl"
-					tier="all"
+					mode={mode}
+					tier={tier}
 					onModeChange={() => {}}
 					onTierChange={() => {}}
 				/>
+			</div>
+			<div className="stat-cards-grid">
+				<SkeletonCard />
+				<SkeletonCard />
+				<SkeletonCard />
+				<SkeletonCard />
 			</div>
 			<div className="heroes-table-wrapper">
 				<div className="skeleton-table-body">

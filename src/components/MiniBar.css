@@ -12,3 +12,7 @@
 	border-radius: 3px;
 	transition: width 0.3s;
 }
+
+.mini-bar-fill--green {
+	background-color: var(--green);
+}

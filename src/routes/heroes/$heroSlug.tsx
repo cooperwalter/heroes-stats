@@ -293,7 +293,7 @@ function HeroTalentPage() {
 											return (
 												<TalentCard
 													key={name}
-													name={name}
+													name={meta?.title ?? name}
 													iconUrl={meta?.icon}
 													winRate={detail.win_rate}
 													popularity={detail.popularity}
@@ -339,6 +339,7 @@ function HeroTalentPage() {
 }
 
 function HeroTalentPendingComponent() {
+	const search = Route.useSearch();
 	return (
 		<main className="container hero-talent-page">
 			<div className="hero-talent-header">
@@ -347,7 +348,7 @@ function HeroTalentPendingComponent() {
 				</div>
 				<Link
 					to="/"
-					search={{ mode: "sl", tier: "all" }}
+					search={{ mode: search.mode, tier: search.tier }}
 					className="hero-talent-back"
 				>
 					Back to all heroes
@@ -355,8 +356,8 @@ function HeroTalentPendingComponent() {
 			</div>
 			<div className="hero-talent-filters">
 				<FilterBar
-					mode="sl"
-					tier="all"
+					mode={search.mode}
+					tier={search.tier}
 					onModeChange={() => {}}
 					onTierChange={() => {}}
 				/>
